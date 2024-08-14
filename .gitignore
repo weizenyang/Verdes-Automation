@@ -1,0 +1,39 @@
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+*.webp
+*.heic
+*.heif
+*.raw
+*.psd
+*.ai
+*.eps
+*.zip
+
+# Ignore image files in all directories
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.tif
+**/*.svg
+**/*.ico
+**/*.webp
+**/*.heic
+**/*.heif
+**/*.raw
+**/*.psd
+**/*.ai
+**/*.eps
+**/*.zip
+
+/Ignore Folder/

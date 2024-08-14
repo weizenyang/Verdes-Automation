@@ -1,0 +1,1006 @@
+[
+  {
+    "unitName": "thearthouse_r10_01_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_02_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_03_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_04_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_05_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_06_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_07_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_08_02",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_01_01",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_01_05",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_01_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_02_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_02_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_02_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_03_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_03_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_03_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_04_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_04_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_04_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_05_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_05_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_05_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_06_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_06_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_06_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_07_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_07_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_07_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_08_08",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_01_01",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_01_05",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_01_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_02_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_02_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_02_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_03_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_03_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_03_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_04_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_04_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_04_11",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_05_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_05_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_05_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_06_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_06_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_06_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_07_01",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_07_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_07_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_08_08",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_08_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_01_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_02_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_03_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_04_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_05_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_06_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_07_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_08_01",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_01_02",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_01_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_01_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_01_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_01_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_02_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r11_02_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_02_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_02_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_02_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_03_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_03_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_03_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_03_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_03_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_04_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r11_04_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_04_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_04_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_04_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_05_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_05_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_05_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_05_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_05_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_06_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r11_06_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_06_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_06_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_06_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_07_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_07_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_07_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_07_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_07_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_08_03",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_08_04",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_08_06",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_08_07",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_01_02",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_01_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_01_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_01_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_01_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_02_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r12_02_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_02_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_02_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_02_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_03_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_03_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_03_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_03_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_03_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_04_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r12_04_06",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_04_07",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_04_09",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_04_10",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_05_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_05_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_05_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_05_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_05_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_06_02",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r12_06_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_06_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_06_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_06_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_07_02",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_07_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_07_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_07_08",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_07_09",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_08_03",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_08_04",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_08_06",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_08_07",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_01_14",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r11_01_15",
+    "balconyReference": "b8"
+  },
+  {
+    "unitName": "thearthouse_r11_02_14",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_02_15",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_03_14",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_03_15",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_04_14",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_04_15",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_05_13",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_05_14",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_06_13",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_06_14",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_07_13",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_07_14",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_08_10",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_08_11",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_01_14",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r12_01_15",
+    "balconyReference": "b8"
+  },
+  {
+    "unitName": "thearthouse_r12_02_14",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_02_15",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_03_14",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_03_15",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_04_14",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_04_15",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_05_13",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_05_14",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_06_13",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_06_14",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_07_13",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r12_07_14",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_08_11",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_01_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_02_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_03_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_04_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_05_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_06_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_07_07",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_08_06",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_01_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_02_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_03_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_04_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_05_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_06_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_07_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_08_09",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_01_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_02_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_03_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_04_12",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_05_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_06_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_07_11",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_08_09",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_01_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r10_01_06",
+    "balconyReference": "b7"
+  },
+  {
+    "unitName": "thearthouse_r10_02_04",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_02_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_03_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r10_03_06",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r10_04_04",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_04_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_05_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r10_05_06",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r10_06_04",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_06_06",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r10_07_04",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r10_07_06",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r10_08_04",
+    "balconyReference": "b8"
+  },
+  {
+    "unitName": "thearthouse_r10_08_05",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r11_01_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_01_13",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_02_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_02_13",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_03_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_03_13",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_04_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r11_04_13",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_05_12",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_06_12",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_07_12",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_01_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_01_13",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_02_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_02_13",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_03_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_03_13",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_04_04",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_04_13",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_05_12",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_06_12",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_07_12",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_01_03",
+    "balconyReference": "b6"
+  },
+  {
+    "unitName": "thearthouse_r11_02_03",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_03_03",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r11_04_03",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_01_03",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r12_02_03",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r12_03_03",
+    "balconyReference": "b5"
+  },
+  {
+    "unitName": "thearthouse_r12_04_03",
+    "balconyReference": "b4"
+  },
+  {
+    "unitName": "thearthouse_r10_01_05",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r10_02_05",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_03_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_04_05",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_05_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r10_06_05",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r10_07_05",
+    "balconyReference": "b3"
+  },
+  {
+    "unitName": "thearthouse_r11_06_03",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r11_07_03",
+    "balconyReference": "b2"
+  },
+  {
+    "unitName": "thearthouse_r12_06_03",
+    "balconyReference": "b1"
+  },
+  {
+    "unitName": "thearthouse_r12_07_03",
+    "balconyReference": "b2"
+  }
+]
