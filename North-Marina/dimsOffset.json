@@ -1,0 +1,10 @@
+{
+    "offsets" : [
+        {
+            "name" : "6b_canal",
+            "mirror": "MIRROR", 
+            "offsetX" : -57,
+            "offsetY" : 0
+        }
+    ]
+}

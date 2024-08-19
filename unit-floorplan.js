@@ -14,14 +14,14 @@ const outputFilePath = './Arthouse/output.json';
 
 // const oriDirectoryPath = './Arthouse/floorplan/Original backplates/Balcony DIMS';
 
-// const outputDir = './Arthouse/floorplan/Unit matched types/NEW/S1 240812 Flipped';
-// const oriDirectoryPath = './Arthouse/floorplan/Original backplates/DIMS';
-// const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806/DIMS';
+const outputDir = './Arthouse/floorplan/Unit matched types/NEW/S1 240812 Flipped';
+const oriDirectoryPath = './Arthouse/floorplan/Original backplates/DIMS';
+const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806/DIMS';
 // const testDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240812/TEST';
 
-var outputDir = './Arthouse/floorplan/Unit matched types/NEW/S2 240812 Flipped';
-const oriDirectoryPath = './Arthouse/floorplan/Original backplates/S2 DIMS';
-const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806/DIMS';
+// var outputDir = './Arthouse/floorplan/Unit matched types/NEW/S2 240812 Flipped';
+// const oriDirectoryPath = './Arthouse/floorplan/Original backplates/S2 DIMS';
+// const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806/DIMS';
 
 const CSVDirectoryPath = './New CSV Resized/Scaled CSV Types';
 
