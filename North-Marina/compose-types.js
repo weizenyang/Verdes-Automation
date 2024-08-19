@@ -57,10 +57,10 @@ async function compositeImage(layoutImage) {
     const bottomImagePath = path.join(inputPath, layoutImage);
 
     const types = [layoutImage.split("_")[0], layoutImage.split("_")[1]].join("_")
-    const floors = layoutImage.split("_")[2]
+    const floor = layoutImage.split("_")[2]
     const furnishings = layoutImage.split("_")[3]
     const style = layoutImage.split("_")[4]
-    const tempDims = dims.filter((e => e.includes(types) && e.includes(floors)))
+    const tempDims = dims.filter((e => e.includes(types) && e.includes(floor)))
 
 
     // const topImagePath = path.join(inputPath, matchingTopImageFile);
@@ -90,39 +90,41 @@ async function compositeImage(layoutImage) {
         .resize(4096, 4096)
         .toBuffer();
 
-    // Calculate the coordinates to center the top image on the bottom image
-    const left = 0;
-    const top = 0;
 
-    const compositeOptions = [
-        { input: bottomImage, top, left },
-        { input: topImage, top, left }
-    ];
 
-    const compositeOptionsFlipped = [
-        { input: bottomImageFlipped, top, left },
-        { input: topFlippedImage, top, left }
-    ];
+
 
     if(!fs.existsSync(path.join(tempPath, "dims"))){
         fs.mkdirSync(path.join(tempPath, "dims"))
     }
 
-    console.log(layoutImage)
-    const normalOffsetObject = dimsOffset.offsets.filter((e) => e.name.includes(types) && e.mirror.includes("NORMAL"))
-    const normalOffset = normalOffsetObject.length > 0 ? [normalOffsetObject.offsetX ? normalOffsetObject.offsetX : 0, normalOffsetObject.offsetY ? normalOffsetObject.offsetY : 0] : [0, 0]
-    const image1 = await sharp(bottomImage)
+    const normalOffsetObject = dimsOffset.offsets.filter((e) => e.name.includes(types) && e.mirror.includes("NORMAL") && e.floor.includes(floor));
+    const normalOffset = normalOffsetObject.length > 0 ? [normalOffsetObject[0].offsetX || 0, normalOffsetObject[0].offsetY || 0] : [0, 0];
+
+    // Apply offsets correctly to left and top
+    const compositeOptions = [
+        { input: bottomImage, left: 0, top: 0 },
+        { input: topImage, left: normalOffset[0], top: normalOffset[1] }
+    ];
+
+    await sharp(bottomImage)
         .composite(compositeOptions)
         .png({ compressionLevel: 7 })
-        .toFile(path.join(path.join(tempPath, "dims"), `${types}_${floors}_${furnishings}_${style}_nd.png`));
+        .toFile(path.join(path.join(tempPath, "dims"), `${types}_${floor}_${furnishings}_${style}_nd.png`));
 
-    const flippedOffsetObject = dimsOffset.offsets.filter((e) => e.name.includes(types) && e.mirror.includes("MIRROR"))
-    const flippedOffset = flippedOffsetObject.length > 0 ? [flippedOffsetObject.offsetX ? flippedOffsetObject.offsetX : 0, flippedOffsetObject.offsetY ? flippedOffsetObject.offsetY : 0] : [0, 0]
-    console.log(flippedOffsetObject)
-    const image2 = await sharp(bottomImageFlipped)
+    const flippedOffsetObject = dimsOffset.offsets.filter((e) => e.name.includes(types) && e.mirror.includes("MIRROR") && e.floor.includes(floor));
+    const flippedOffset = flippedOffsetObject.length > 0 ? [flippedOffsetObject[0].offsetX || 0, flippedOffsetObject[0].offsetY || 0] : [0, 0];
+
+    // Apply offsets correctly to left and top for flipped image
+    const compositeOptionsFlipped = [
+        { input: bottomImageFlipped, left: 0, top: 0 },
+        { input: topFlippedImage, left: flippedOffset[0], top: flippedOffset[1] }
+    ];
+
+    await sharp(bottomImageFlipped)
         .composite(compositeOptionsFlipped)
         .png({ compressionLevel: 7 })
-        .toFile(path.join(path.join(tempPath, "dims"), `${types}_${floors}_${furnishings}_${style}_fd.png`));
+        .toFile(path.join(path.join(tempPath, "dims"), `${types}_${floor}_${furnishings}_${style}_fd.png`));
 }
 
 layout.forEach((e) => {
