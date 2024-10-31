@@ -37,3 +37,8 @@
 **/*.zip
 
 /Ignore Folder/
+*.glb
+*.max
+*.fbx
+*.blend
+*.blend1

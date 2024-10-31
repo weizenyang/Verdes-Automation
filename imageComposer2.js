@@ -3,9 +3,10 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // Directory paths
-const bottomImageDir = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806'
-// const bottomImageDir = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806';
-const topImageDir = './OCR Test/New';
+// const bottomImageDir = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806'
+const bottomImageDir = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806';
+// const topImageDir = './OCR Test/New';
+const topImageDir = './OCR Test/New 180';
 
 // Function to layer images
 async function layerImages() {
@@ -52,11 +53,13 @@ async function layerImages() {
       // Load and resize the bottom image
       const bottomImage = await sharp(bottomImagePath)
         .resize(4320, 4320)
+        .rotate(180)
         .toBuffer();
 
       const bottomImageFlipped = await sharp(bottomImagePath)
         .resize(4320, 4320)
         .flop()
+        .rotate(180)
         .toBuffer();
 
       // Load and resize the top image
@@ -90,9 +93,9 @@ async function layerImages() {
         const finalImage = await sharp(bottomImage)
         .composite(compositeOptions)
         .png({ compressionLevel: 7 }) // Use compressionLevel: 0 for no compression artifacts
-        .toFile(path.join(bottomImageDir + "/DIMS", `${path.parse(bottomImageFile).name}.png`));
+        .toFile(path.join(bottomImageDir + "/DIMS 180", `${path.parse(bottomImageFile).name}.png`));
         console.log(topImage)
-        console.log(path.join(bottomImageDir + "/DIMS", `${path.parse(bottomImageFile).name}.png`))
+        console.log(path.join(bottomImageDir + "/DIMS 180", `${path.parse(bottomImageFile).name}.png`))
 
       console.log(`Image processing complete for ${bottomImageFile}:`, finalImage);
 
@@ -100,9 +103,9 @@ async function layerImages() {
       const finalFlippedImage = await sharp(bottomImage)
         .composite(compositeOptionsFlipped)
         .png({ compressionLevel: 7 }) // Use compressionLevel: 0 for no compression artifacts
-        .toFile(path.join(bottomImageDir + "/DIMS", `${path.parse(bottomImageFile).name}_Flipped.png`));
+        .toFile(path.join(bottomImageDir + "/DIMS 180", `${path.parse(bottomImageFile).name}_Flipped.png`));
         console.log(topImage)
-        console.log(path.join(bottomImageDir + "/DIMS", `${path.parse(bottomImageFile).name}_Flipped.png`))
+        console.log(path.join(bottomImageDir + "/DIMS 180", `${path.parse(bottomImageFile).name}_Flipped.png`))
       console.log(`Flipped image processing complete for ${bottomImageFile}:`, finalFlippedImage);
       }
 

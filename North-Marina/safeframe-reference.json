@@ -1,0 +1,9 @@
+{
+    "reference" : [
+        {
+            "name" : "YS2-V-05-32",
+            "mirror": "MIRROR",
+            "safeframe": ""
+        }
+    ]
+}

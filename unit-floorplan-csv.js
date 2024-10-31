@@ -7,7 +7,7 @@ const inputDirectoryPath = './Arthouse/floorplan/plans';  // Replace with the ac
 const balconyReference = './Arthouse/floorplan/segmented - distinct/Unit Name - More Types Merged 2';
 
 const affectedUnits = []
-const affectedTypes = ["2bra1","2brsta1", "3brma3", "3brma1"]
+const affectedTypes = ["1bra1", "2bra1", "2bra2", "3brma1", "3brma2", "3brma3", "3brma4", "3brmb1", "3brmb2", "5brmsv"]
 
 
 const jsonFilePath = './Arthouse/response.json';
@@ -23,7 +23,6 @@ const outputFilePath = './Arthouse/output.json';
 var outputDir = './Arthouse/floorplan/Unit matched types/NEW/S2 240806 Flipped';
 const oriDirectoryPath = './Arthouse/floorplan/Original backplates/S2 DIMS';
 const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806/DIMS';
-
 const CSVDirectoryPath = './New CSV Resized/Scaled CSV Types';
 
 const balconyReferenceNames = fs.readdirSync(balconyReference);
@@ -35,44 +34,6 @@ var testTypesImage = []
 var testTypesCSV = []
 
 var selectedType = "2ba1"
-
-// // Function to generate SHA-256 hash of a file
-// const generateFileHash = (filePath) => {
-//   return new Promise((resolve, reject) => {
-//       const hash = crypto.createHash('sha256');
-//       const stream = fs.createReadStream(filePath);
-
-//       stream.on('data', (data) => {
-//           hash.update(data);
-//       });
-
-//       stream.on('end', () => {
-//           resolve(hash.digest('hex'));
-//       });
-
-//       stream.on('error', (err) => {
-//           reject(err);
-//       });
-//   });
-// };
-
-// // Function to get existing hashes from file
-// const getExistingHashes = (filePath) => {
-//   if (!fs.existsSync(filePath)) {
-//       return [];
-//   }
-//   const data = fs.readFileSync(filePath, 'utf8');
-//   return data ? JSON.parse(data) : [];
-// };
-
-// // Function to save hashes to file
-// const saveHashesToFile = (hashes, filePath) => {
-//   fs.writeFileSync(filePath, JSON.stringify(hashes, null, 2), 'utf8');
-//   console.log(`Hashes saved to ${filePath}`);
-// };
-
-// Load existing hashes
-// let existingHashes = getExistingHashes(hashFilePath);
 
 function checkRunning(thisUnitNumber){
   if (notRunning.includes(thisUnitNumber)) {
@@ -118,7 +79,7 @@ function flipCsvHorizontally(filePath, canvasWidth, outputPath) {
       rows.push([row[0], y, flippedX]);
     })
     .on('end', () => {
-      const writeStream = fs.createWriteStream(path.join(outputDir + "/csv4", outputPath));
+      const writeStream = fs.createWriteStream(path.join(outputDir + "/csv5", outputPath));
       csv.write(rows, { headers: false }).pipe(writeStream);
       // console.log(`File ${filePath} has been flipped and saved as ${path.join(outputDir + "/csv4", outputPath)}`);
     });
@@ -141,6 +102,8 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
   const newDirectoryNames = fs.readdirSync(newDirectoryPath);
   const oriDirectoryNames = fs.readdirSync(oriDirectoryPath);
   const CSVDirectoryNames = fs.readdirSync(CSVDirectoryPath);
+
+
 
   // Iterate over each item in the JSON
   results.forEach(item => {
@@ -343,33 +306,12 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
               
             } else {
               try{
-                // if(!testTypesImage.includes(unitType)){
-                //   if(!fs.existsSync(testDirectoryPath)){
-                //     fs.mkdirSync(testDirectoryPath)
-                //   }
-                //   const imageFolder = path.join(testDirectoryPath, "image")
-                //   if(!fs.existsSync(imageFolder)){
-                //     fs.mkdirSync(imageFolder)
-                //   }
-                  
-                //   fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_")), path.join(imageFolder, outputFileName))
-                //   testTypesImage.push(unitType)
-                // }
-                // fs.copyFileSync(path.join(oriDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
-                // checkRunning(unitNumber)
-                // console.log(path.join(oriDirectoryPath, splitName.join("_")) + " to " + path.join(outputDir, outputFileName))
               } catch(e) {
                 
               }
               
               
             }
-
-
-            //   sharp(path.join(newDirectoryPath, file))
-            //     .flop()
-            //     .webp({ quality: 80 })
-            //     .toFile(path.join(outputDir, outputFileName), (err, info) => { ////console.log(err) });
           }
         } else {
           if (!notRunning.includes(unitNumber)) {
@@ -409,7 +351,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
           //   testTypesCSV.push(unitType)
           // }
           //console.log(file.toLowerCase().split("_").join("") + " : " + tempName.toLowerCase().split("_").join("") + ` : ${outputFileName}`);
-          fs.copyFileSync(path.join(CSVDirectoryPath, file), path.join(outputDir + "/csv4", outputFileName));
+          fs.copyFileSync(path.join(CSVDirectoryPath, file), path.join(outputDir + "/csv5", outputFileName));
           updateLogs(groupName, unitNumber)
           // console.log(path.join(outputDir + "/csv4", outputFileName))
         } else if (file.toLowerCase().split("_").join("").includes(tempName.toLowerCase().split("_").join("").replace("bf", "b"))) {

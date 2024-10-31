@@ -1,10 +1,101 @@
 {
     "offsets" : [
         {
-            "name" : "6b_canal",
+            "name" : "6b_a",
             "mirror": "MIRROR",
             "floor": "00",
-            "offsetX" : -57,
+            "offsetX" : -58,
+            "offsetY" : 0
+        },
+        {
+            "name" : "6b_a",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : -58,
+            "offsetY" : 0
+        },
+        {
+            "name" : "6b_b",
+            "mirror": "MIRROR",
+            "floor": "00",
+            "offsetX" : -740,
+            "offsetY" : 0
+        },
+        {
+            "name" : "6b_b",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : -412,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_a",
+            "mirror": "MIRROR",
+            "floor": "00",
+            "offsetX" : 0,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_a",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : 0,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_b",
+            "mirror": "NORMAL",
+            "floor": "00",
+            "offsetX" : 15,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_b",
+            "mirror": "NORMAL",
+            "floor": "01",
+            "offsetX" : 25,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_b",
+            "mirror": "MIRROR",
+            "floor": "00",
+            "offsetX" : -70,
+            "offsetY" : 0
+        },
+        {
+            "name" : "5b_b",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : -28,
+            "offsetY" : 0
+        },
+        {
+            "name" : "4b_a",
+            "mirror": "MIRROR",
+            "floor": "00",
+            "offsetX" : 100,
+            "offsetY" : 0
+        },
+        {
+            "name" : "4b_a",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : 0,
+            "offsetY" : 0
+        },
+        {
+            "name" : "4b_b",
+            "mirror": "MIRROR",
+            "floor": "00",
+            "offsetX" : 0,
+            "offsetY" : 0
+        },
+        {
+            "name" : "4b_b",
+            "mirror": "MIRROR",
+            "floor": "01",
+            "offsetX" : -130,
             "offsetY" : 0
         }
     ]

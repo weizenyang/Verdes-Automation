@@ -1,0 +1,31 @@
+{
+    "types": [
+        {
+            "name": "a_s_1b_a4_s1_0",
+            "offset": {
+                "rotation" : 180
+            }
+        },
+        {
+            "name": "a_s_1b_a8_s1_0",
+            "offset": {
+                "rotation" : 180
+            }
+        }
+
+    ],
+    "units" : [
+        {
+            "name":"mandarin-1-1-1",
+            "type": "a_s_1b_a4_s1_0",
+            "rotation": 0,
+            "flip": "true"
+        },
+        {
+            "name":"mandarin-1-1-2",
+            "type": "a_s_1b_a8_s1_0",
+            "rotation": 0,
+            "flip": "false"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+Code,Description
+00,Ground Floor
+01,1st Floor
+p1,with Pod
+p2,No Pod
+p3,with Pool
+p4,No Pool
+p5,with Pod + Pool
+p6,No Pod + Pool
+s1,Light Scheme
+s2,Dark Scheme
+nu,Normal Orientation
+fn,Flipped Orientation
+XX,Update with unique Plot no.
+f,Frame Type

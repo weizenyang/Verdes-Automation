@@ -14,14 +14,14 @@ const outputFilePath = './Arthouse/output.json';
 
 // const oriDirectoryPath = './Arthouse/floorplan/Original backplates/Balcony DIMS';
 
-const outputDir = './Arthouse/floorplan/Unit matched types/NEW/S1 240812 Flipped';
-const oriDirectoryPath = './Arthouse/floorplan/Original backplates/DIMS';
-const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806/DIMS';
+// const outputDir = './Arthouse/floorplan/Unit matched types/NEW/S1 240812 Flipped 180';
+// const oriDirectoryPath = './Arthouse/floorplan/Original backplates/DIMS/rotated';
+// const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240806/DIMS 180/Scaled';
 // const testDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S1 240812/TEST';
 
-// var outputDir = './Arthouse/floorplan/Unit matched types/NEW/S2 240812 Flipped';
-// const oriDirectoryPath = './Arthouse/floorplan/Original backplates/S2 DIMS';
-// const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806/DIMS';
+var outputDir = './Arthouse/floorplan/Unit matched types/NEW/S2 240812 Flipped 180';
+const oriDirectoryPath = './Arthouse/floorplan/Original backplates/S2 DIMS/rotated';
+const newDirectoryPath = './Arthouse/floorplan/segmented - distinct/POLISHED/S2 240806/DIMS 180/Scaled';
 
 const CSVDirectoryPath = './New CSV Resized/Scaled CSV Types';
 
@@ -34,53 +34,6 @@ var testTypesImage = []
 var testTypesCSV = []
 
 var selectedType = "2ba1"
-
-// // Function to generate SHA-256 hash of a file
-// const generateFileHash = (filePath) => {
-//   return new Promise((resolve, reject) => {
-//       const hash = crypto.createHash('sha256');
-//       const stream = fs.createReadStream(filePath);
-
-//       stream.on('data', (data) => {
-//           hash.update(data);
-//       });
-
-//       stream.on('end', () => {
-//           resolve(hash.digest('hex'));
-//       });
-
-//       stream.on('error', (err) => {
-//           reject(err);
-//       });
-//   });
-// };
-
-// // Function to get existing hashes from file
-// const getExistingHashes = (filePath) => {
-//   if (!fs.existsSync(filePath)) {
-//       return [];
-//   }
-//   const data = fs.readFileSync(filePath, 'utf8');
-//   return data ? JSON.parse(data) : [];
-// };
-
-// // Function to save hashes to file
-// const saveHashesToFile = (hashes, filePath) => {
-//   fs.writeFileSync(filePath, JSON.stringify(hashes, null, 2), 'utf8');
-//   console.log(`Hashes saved to ${filePath}`);
-// };
-
-// Load existing hashes
-// let existingHashes = getExistingHashes(hashFilePath);
-
-function checkRunning(thisUnitNumber){
-  if (notRunning.includes(thisUnitNumber)) {
-
-    const index = notRunning.indexOf(thisUnitNumber);
-    notRunning = notRunning.splice(index, 1);
-
-  }
-}
 
 // Process balcony reference names
 balconyReferenceNames.forEach(file => {
@@ -216,6 +169,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
       //     console.log(file.toLowerCase().includes(tempName))
       // }
 
+
         if (file.toLowerCase().includes(tempName) && item.mirror == "NORMAL") {
 
           //console.log("Run Normal " + unitNumber)
@@ -234,7 +188,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
               
               // console.log(path.join(newDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
               try{
-                fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
+                fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_").toLowerCase().replace('.png', '.webp')), path.join(outputDir, outputFileName))
                 // checkRunning(unitNumber)
 
                 // if(!testTypesImage.includes(unitType)){
@@ -250,7 +204,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
                 //   testTypesImage.push(unitType)
                 // }
 
-                console.log("RUNNING" + path.join(newDirectoryPath, splitName.join("_")) + " " + outputFileName)
+                console.log("RUNNING" + path.join(newDirectoryPath, splitName.join("_").toLowerCase()) + " " + outputFileName)
               } catch(e) {
                 console.log(e)
               }
@@ -259,7 +213,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
               
               // console.log(path.join(oriDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
               try{
-                fs.copyFileSync(path.join(oriDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
+                fs.copyFileSync(path.join(oriDirectoryPath, splitName.join("_").toLowerCase().replace('.png', '.webp')), path.join(outputDir, outputFileName))
                 // checkRunning(unitNumber)
 
                 // if(!testTypesImage.includes(unitType)){
@@ -334,7 +288,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
                 //   testTypesImage.push(unitType)
                 // }
 
-                fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
+                fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_").toLowerCase().replace('.png', '.webp')), path.join(outputDir, outputFileName))
                 // checkRunning(unitNumber)
                 // console.log(path.join(newDirectoryPath, splitName.join("_")) + " to " + path.join(outputDir, outputFileName))
               } catch(e) {
@@ -355,7 +309,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
                 //   fs.copyFileSync(path.join(newDirectoryPath, splitName.join("_")), path.join(imageFolder, outputFileName))
                 //   testTypesImage.push(unitType)
                 // }
-                fs.copyFileSync(path.join(oriDirectoryPath, splitName.join("_")), path.join(outputDir, outputFileName))
+                fs.copyFileSync(path.join(oriDirectoryPath, splitName.join("_").toLowerCase().replace('.png', '.webp')), path.join(outputDir, outputFileName))
                 // checkRunning(unitNumber)
                 // console.log(path.join(oriDirectoryPath, splitName.join("_")) + " to " + path.join(outputDir, outputFileName))
               } catch(e) {
@@ -442,7 +396,6 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
   });
   console.log(selection)
 
-  // Write results to output JSON file
   fs.writeFile(outputFilePath, JSON.stringify(resultsArray, null, 2), (err) => {
     if (err) {
       console.error('Error writing output JSON file:', err);

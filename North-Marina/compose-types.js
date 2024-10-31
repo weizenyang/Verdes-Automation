@@ -90,10 +90,6 @@ async function compositeImage(layoutImage) {
         .resize(4096, 4096)
         .toBuffer();
 
-
-
-
-
     if(!fs.existsSync(path.join(tempPath, "dims"))){
         fs.mkdirSync(path.join(tempPath, "dims"))
     }
@@ -130,6 +126,7 @@ async function compositeImage(layoutImage) {
 layout.forEach((e) => {
     compositeImage(e)
 })
+
 
 
 
