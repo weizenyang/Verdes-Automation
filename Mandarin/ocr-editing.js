@@ -14,6 +14,7 @@ const preprocessImage = async (imagePath) => {
     .toBuffer();
 };
 
+
 const drawBoundingBoxesAndFlippedText = async (flippedImageBuffer, boxes, outputPath, imageName, prefix) => {
   const { width: imageWidth, height: imageHeight } = await sharp(flippedImageBuffer).metadata();
 
@@ -71,11 +72,11 @@ const drawBoundingBoxesAndFlippedText = async (flippedImageBuffer, boxes, output
       </svg>
     `);
 
-    compositeImages.push({
-      input: textSVG,
-      top: 0,
-      left: 0
-    });
+    // compositeImages.push({
+    //   input: textSVG,
+    //   top: 0,
+    //   left: 0
+    // });
   }
 
   // Final composite operation to include the flipped texts and bounding boxes
@@ -171,7 +172,7 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
         logger: m => m,
         langPath: '../scripts',
         tessedit_pageseg_mode: Tesseract.PSM.AUTO_OSD,
-        dpi: 500
+        dpi: 700
       });
 
       var newLines = lines.map(thisLine => ({
@@ -192,12 +193,12 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
         confidence: thisSymbol.confidence  // Confidence level
       }));
 
-      const temp = [...newWords ];
+      const temp = [...newWords];
       return temp;
     };
 
     const rotateImage = async (imagePath, degrees) => {
-      const buffer = await sharp(imagePath).rotate(degrees).toBuffer();
+      const buffer = await sharp(imagePath).rotate(degrees).flatten({ background: { r: 0, g: 0, b: 0 } }).toBuffer();
       return buffer;
     };
 
@@ -236,7 +237,7 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
     };
 
     // Function to detect if two boxes intersect within 30px and merge them
-    const mergeIntersectingBoxes = (boxes) => {
+    const mergeIntersectingBoxes = (boxes, width) => {
       const mergedBoxes = [];
 
       boxes.forEach((box, index) => {
@@ -247,9 +248,9 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
 
           // Check if boxes are within 30px horizontally or vertically
           if (
-            Math.abs(box.left - existingBox.left) <= 30 && Math.abs(box.top - existingBox.top) <= 30 ||    // Vertical proximity
-            (box.left + box.width >= existingBox.left - 30 && box.left <= existingBox.left + existingBox.width + 30) && 
-            (box.top + box.height >= existingBox.top - 30 && box.top <= existingBox.top + existingBox.height + 30)
+            Math.abs(box.left - existingBox.left) <= width && Math.abs(box.top - existingBox.top) <= width ||    // Vertical proximity
+            (box.left + box.width >= existingBox.left - width && box.left <= existingBox.left + existingBox.width + width) && 
+            (box.top + box.height >= existingBox.top - width && box.top <= existingBox.top + existingBox.height + width)
           ) {
             // Merge boxes by adjusting the bounding box to fit both
             existingBox.left = Math.min(box.left, existingBox.left);
@@ -262,7 +263,6 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
           }
         }
 
-        // If no existing box could be merged, add the box as a new one
         if (!merged) {
           mergedBoxes.push({ ...box });
         }
@@ -319,9 +319,15 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
       allWords = allWords.concat(rotatedWords);
     }
 
-    // Regular expression to match patterns like 1.8m
+    // Regex to match patterns like 1.8m
+    // const measurementPattern = /\b(?=.*[0-9])(?=.*[mM])[A-Za-z0-9.]+\b|\b[A-Za-z]*[0-9]{2,}[A-Za-z]*\b|\b[A-Za-z]*[mM]+[A-Za-z]*\b/;
     const measurementPattern = /\b(?=.*[0-9])(?=.*[mM])[A-Za-z0-9.]+\b|\b[A-Za-z]*[0-9]{2,}[A-Za-z]*\b|\b[A-Za-z]*[mM]+[A-Za-z]*\b/;
-    let boxes = allWords.filter(word => measurementPattern.test(word.text));
+    const textToIgnore = ["(", ")", "em"]
+    let boxes = allWords.filter(word => measurementPattern.test(word.text))
+    boxes = boxes.filter(word => {
+      // Check if the word.text does not include any of the strings in textToIgnore
+      return !textToIgnore.some(ignore => word.text.replace(" ", "").includes(ignore.replace(" ", "")));
+    })
 
     const allSVGFiles = fs.readdirSync(SVGDirPath);
 
@@ -338,10 +344,10 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
     }
 
     // Merge overlapping boxes within 30px proximity
-    boxes = mergeIntersectingBoxes(boxes);
+    boxes = mergeIntersectingBoxes(boxes, 10);
 
 
-    // Flip image horizontally and get buffer
+    // Flop() image horizontally and get buffer
     // const originalImageBuffer = await sharp(preprocessedImageBuffer).toBuffer();
     const baseName = path.basename(imagePath)
     const outputFolder = path.join(outputPath, "normal")
@@ -350,7 +356,7 @@ const performOCR = async (imagePath, outputPath, SVGDirPath) => {
     const rotated180ImageBuffer = await sharp(preprocessedImageBuffer).rotate(180).toBuffer();
     const flippedRotated180ImageBuffer = await sharp(preprocessedImageBuffer).flop().rotate(180).toBuffer();
 
-    // Adjust coordinates for the horizontal flip using aggregate box center
+    // Flop() boxes across image center
     const flipCoordinatesHorizontally = (box, imageWidth) => {
       const centerX = box.left + box.width / 2;
       const newLeft = imageWidth - centerX - box.width / 2;

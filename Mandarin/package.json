@@ -1,0 +1,16 @@
+{
+  "name": "mandarin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imageComposer2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ocr-editing.js && node imageComposer2.js && node normalizeTypes.js && node unit-floorplan.js",
+    "after-compose": "node imageComposer2.js && node normalizeTypes.js && node unit-floorplan.js"
+  },
+  "author": "EWei",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^18.18.0"
+  }
+}

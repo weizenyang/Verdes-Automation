@@ -4,8 +4,8 @@ const csv = require('fast-csv');
 const sharp = require('sharp');
 
 const outputFilePath = "./Unit Floorplans"
-const inputFileDir = "./Floorplans/output"
-const jsonFilePath = './reference.json';
+const inputFileDir = "./Floorplans/typeCorrected"
+const jsonFilePath = './unit-reference.json';
 const csvFolderPath = './Arthouse/floorplan/Unit matched types/NEW/S2 240806 Flipped/csv5';
 
 const jsonText = fs.readFileSync(jsonFilePath)
@@ -13,31 +13,85 @@ const jsonData = JSON.parse(jsonText);
 const typeData = jsonData.types
 const unitData = jsonData.units
 
+const unfinishedUnits = []
+const unfinishedTypes = []
+let promises = []
+
 unitData.forEach((unit) => {
-    const subfolder = path.join(inputFileDir, `${unit.rotation}_${unit.flip}`)
-    fs.readdir(subfolder, (err, images) => {
+  
+  const subfolder = unit.flip ? "Flipped" : "Normal"
+  const selectedFolder = path.join(inputFileDir, subfolder)
+  console.log(unit.type)
+  const selectedTypeImage = fs.readdirSync(selectedFolder).filter(e => e.includes(unit.type))[0]
+  // .filter(e => e.includes(unit.type))[0]
+  // console.log(path.join(selectedFolder, selectedTypeImage))
+  if(selectedTypeImage){
+    console.log(selectedFolder)
+    console.log(selectedTypeImage)
+    const name = unit.name.toLowerCase()
+    const tower = name.split("-")[0]
+    const level = name.split("-")[1].length > 3 ? name.split("-")[1].substr(0, 2) : `0${name.split("-")[1].substr(0, 1)}`
+    const unitNumber = name.split("-")[1].slice(-2)
+    const selectedTypeImagePath = path.join(selectedFolder, selectedTypeImage)
+    // const selectedImageBuffer = fs.readFileSync(selectedTypeImagePath)
+    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type].join("_"))
+    try{
+      // fs.writeFileSync(selectedImageBuffer, path.join(outputFilePath, finalName))
+      const newPromise = exportCompressedImage(selectedTypeImagePath, path.join(outputFilePath, finalName.split(".")[0]))
+      promises.push(newPromise)
+    } catch (e) {
+      console.error(e)
+      unfinishedUnits.push(unit.name)
+      unfinishedTypes.push(unit.type)
+    }
 
-        const selectedImage = images.filter(image => image.includes(unit.type))
-        console.log(selectedImage)
-
-        const outputPath = path.join(outputFilePath, `backplate_image_floorplan_${unit.name}_${unit.type}`)
-        // if(!fs.existsSync(outputPath)){
-        //     fs.mkdirSync(outputPath)
-        // }
-        exportCompressedImage(path.join(subfolder, selectedImage[0]), outputPath)
-
-    })
+  } else {
+    console.log(`${unit.name} is not processed`)
+    console.log(unit.name)
+    unfinishedUnits.push(unit.name)
+    unfinishedTypes.push(unit.type)
+  }
 })
+
+Promise.all(promises)
+.then(() => {
+  if(unfinishedUnits.length > 0){
+    console.error("Some images failed to process:", error)
+    console.log(unfinishedUnits)
+    console.log(unfinishedUnits.length + " total units")
+    console.log(unfinishedTypes)
+    console.log(unfinishedTypes.length + " total types")
+  } else {
+    console.log("All images have been processed successfully.")
+  }
+})
+.catch((error) => {
+  console.error("Some images failed to process:", error)
+  console.log(unfinishedUnits)
+  console.log(unfinishedUnits.length + " total units")
+  console.log(unfinishedTypes)
+  console.log(unfinishedTypes.length + " total types")
+});
+
+
+if(unfinishedUnits.length > 0){
+  console.log(unfinishedUnits)
+} else {
+  console.log("All units done with no hiccups :)")
+}
 
 
 async function exportCompressedImage(inputPath, outputPath){
-    console.log(inputPath)
-    const imageBuffer = sharp(inputPath).webp(80).toFile(`${outputPath}.webp`, (err, info) => {
-        if(err){
-            console.log(err)
-        } else {
-            console.log(info)
-        }
+    return new Promise((resolve, reject) => {
+      sharp(inputPath).webp(80).toFile(`${outputPath}.webp`)
+      .then(info => {
+        console.log(`Processed image saved: ${outputPath}.webp`);
+        resolve(info);
+      })
+      .catch(error => {
+          console.error(`Error processing image ${inputPath}: ${error}`);
+          reject(error);
+      });
     })
 
 }

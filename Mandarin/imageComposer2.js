@@ -1,5 +1,6 @@
 const sharp = require('sharp');
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const path = require('path');
 
 // Directory paths
@@ -8,6 +9,12 @@ const floorplans = './Floorplans/original';
 const balcony = './Balconies';
 const DIMS = './DIMS/normal';
 const flippedDIMS = './DIMS/flipped';
+const jsonFilePath = "./reference.json"
+
+const jsonText = fsSync.readFileSync(jsonFilePath)
+const jsonData = JSON.parse(jsonText);
+const typeData = jsonData.types
+const unitData = jsonData.units
 
 const expectedOutput = {
   rotation: [0, 90, 180, 270],
@@ -71,45 +78,39 @@ const objectify = (e, layer, folder) => {
 
 
 function compareData(data1, data2) {
+  // Early return if either data is null or undefined
+  if (!data1 || !data2) {
+    console.log(data1 ? "data2 is null or undefined" : "data1 is null or undefined");
+    return false;
+  }
 
+  // Check if both objects have the same number of keys
+  if (Object.keys(data1).length !== Object.keys(data2).length) {
+    // console.log(data1)
+    // console.log(data2)
+    // console.log("Key length mismatch, returning false");
+    return false;
+  }
+
+  // Compare values for each key in data1
   for (let key in data1) {
     if (data1[key] !== data2[key]) {
-      // console.log(`${imageData1.name}:${imageData2.name} ${key} doesnt match ${typeData1[key]}:${typeData2[key]}` )
+      // console.log(`${key} doesn't match: ${data1[key]} !== ${data2[key]}`);
       return false;
     }
   }
-  // console.log(`${imageData1.name} matched ${imageData2.name}!`)
+
+  // Compare values for each key in data2 (in case of extra keys)
+  for (let key in data2) {
+    if (data1[key] !== data2[key]) {
+      // console.log(`${key} doesn't match: ${data1[key]} !== ${data2[key]}`);
+      return false;
+    }
+  }
+
+  console.log("Data1 and Data2 matched!");
   return true;
 }
-
-// async function compositeImages(baseImage, topImages){
-//   const left = 0;
-//   const top = 0;
-
-//   const loadedBaseImage = await sharp(baseImage)
-//   .resize(4320, 4320)
-//   .rotate(180)
-//   .toBuffer();
-
-//   const loadedTopImage = await Promise.all(
-//     topImages.map(async (topImage) => {
-//       return await sharp(path.join(topImage.pathTo, topImage.name))
-//         .resize(4320, 4320)
-//         .rotate(rotateTop ? 180 : 0)
-//         .flop(flopTop)
-//         .toBuffer();
-//     })
-//   )
-
-//   const compositeOptions = [
-//     { input: loadedBaseImage, top, left },
-//   ];
-
-//   const topComposites = loadedTopImage.map((e) => { return {input: loadedBaseImage, top, left}})
-
-//   compositeOptions = [...compositeOptions, ...topComposites]
-
-// }
 
 async function compositeImages(baseImageObj, topImagesObj) {
   try {
@@ -139,7 +140,25 @@ async function compositeImages(baseImageObj, topImagesObj) {
     const outputDir = "./Floorplans/output";
     await fs.mkdir(outputDir, { recursive: true });
 
-    // Generate the output folder based on config values
+    const thisConfig = baseImageObj
+    console.log(thisConfig.name)
+    const filteredConfig = typeData.filter(e => thisConfig.name.includes(e.name))
+    console.log("Filtered")
+    console.log(filteredConfig[0].parent.rotation)
+    console.log(thisConfig.config.rotation)
+
+    const finalRotation = filteredConfig[0].parent.rotation + thisConfig.config.rotation
+
+    function normalizeRotation(rotation) {
+        return ((rotation % 360) + 360) % 360;
+    }
+
+
+    baseImageObj.config.rotation = normalizeRotation(finalRotation)
+    
+    console.log(baseImageObj.config.rotation)
+
+
     const folderNames = path.join(outputDir, Object.values(baseImageObj.config).join("_"));
     await fs.mkdir(folderNames, { recursive: true });
 
@@ -185,6 +204,7 @@ async function layerImages() {
 
     baseImage.forEach((e) => {
       const imageObject = objectify(e, Layer.BaseImage, floorplans);
+      console.log(imageObject)
       backplateImages.push(imageObject);
     });
 
@@ -210,7 +230,7 @@ async function layerImages() {
     const imageGroup = thisBaseImages.map((baseImage) => {
       const group = {
         baseImage,
-        topImages: thisDIM.filter(dim => compareData(baseImage.typeData, dim.typeData))
+        topImages: [ ...thisBalcony.filter(balcony => compareData(baseImage.typeData, balcony.typeData)), ...thisDIM.filter(dim => compareData(baseImage.typeData, dim.typeData))]
       };
       return group;
     });
@@ -223,43 +243,51 @@ async function layerImages() {
 
         let thisTopImages = [] //selected top images
 
-        thisTopImages = thisBalcony.map(e => ({
+        let imageRef = group.topImages
+
+        const batch0 = imageRef
+        .filter(e => e.imageData.layer == Layer.Balcony)
+        .map(e => ({
           ...e.imageData,
           config: config
         }));
+        thisTopImages.push(...batch0)
+        imageRef = imageRef.filter(e => !batch0.some(batchItem => compareData(batchItem, e.imageData)));
 
-        //Default Orientations
-        const batch1 = group.topImages
+
+        const batch1 = imageRef
           .filter(e => compareData(config, e.imageData.modifications))
           .map(e => ({
             ...e.imageData,
             config: { flip: false, rotation: 0 }
           }));
-          console.log(batch1)
           thisTopImages.push(...batch1)
 
+          imageRef = imageRef.filter(e => !batch1.some(batchItem => compareData(batchItem, e.imageData)));
+
           if(config.rotation == 90){
-            const batch2 = group.topImages
+            const batch2 = imageRef
             .filter(e => e.imageData.modifications.rotation == 0 && e.imageData.modifications.flip == config.flip)
             .map(e => ({
               ...e.imageData,
               config: { flip: false, rotation: 90 }
             }));
-            
             thisTopImages.push(...batch2)
+            imageRef = imageRef.filter(e => !batch2.some(batchItem => compareData(batchItem, e.imageData)));
           }
 
           if(config.rotation == 270){
-            const batch3 = group.topImages
+            const batch3 = imageRef
             .filter(e => e.imageData.modifications.rotation == 180 && e.imageData.modifications.flip == config.flip)
             .map(e => ({
               ...e.imageData,
               config: { flip: false, rotation: 90 }
             }));
-
             thisTopImages.push(...batch3)
+            imageRef = imageRef.filter(e => !batch3.some(batchItem => compareData(batchItem, e.imageData)));
           }
-          console.log(thisTopImages)
+          
+          
 
 
 
@@ -277,89 +305,4 @@ async function layerImages() {
   }
 }
 
-
-    // const topImageFiles = DIM
-    //   .filter(entry => entry.isFile() && !entry.name.toLowerCase().includes('Flipped'))
-    //   .map(entry => entry.name.toLowerCase());
-    //   console.log(baseImageFiles)
-
-    // // Process only files that are present in both directories
-    // for (const baseImageFile of baseImageFiles) {
-    //   const bottomFileBaseName = baseImageFile.split('_')[0].toLowerCase();
-    //   var level 
-    //   if(baseImageFile.includes("Upper")){
-    //     level = "Upper"
-    //   } else if(baseImageFile.includes("Lower")) {
-    //     level = "Lower"
-    //   } else {
-    //     level = ""
-    //   }
-    //   const matchingTopImageFile = topImageFiles.find(topFile => topFile.toLowerCase().includes(level == "" ? bottomFileBaseName : bottomFileBaseName + "_" + level));
-
-    //   if (!matchingTopImageFile) {
-    //     console.warn(`No matching top image for ${baseImageFile}`);
-    //     continue;
-    //   }
-
-    //   // Construct the full paths
-    //   const baseImagePath = path.join(baseImageDir, baseImageFile);
-    //   const topImagePath = path.join(topImageDir, matchingTopImageFile);
-    //   const topFlippedImagePath = path.join(topImageDir, `Flipped_${matchingTopImageFile}`);
-
-
-
-
-
-
-    //   // Load and resize the top image
-
-
-    //   // Calculate the coordinates to center the top image on the bottom image
-    //   const left = 0;
-    //   const top = 0;
-
-    //   // Create composite options for normal and flipped images
-    //   const compositeOptions = [
-    //     { input: baseImage, top, left },
-    //     { input: topImage, top, left }
-    //   ];
-
-    //   const compositeOptionsFlipped = [
-    //     { input: baseImageFlipped, top, left },
-    //     { input: topFlippedImage, top, left }
-    //   ];
-    //   console.log(matchingTopImageFile)
-    //   // Composite the images and save as PNG without compression artifacts
-
-
-    //   async function createImage(){
-    //     const finalImage = await sharp(baseImage)
-    //     .composite(compositeOptions)
-    //     .png({ compressionLevel: 7 }) // Use compressionLevel: 0 for no compression artifacts
-    //     .toFile(path.join(baseImageDir + "/DIMS 180", `${path.parse(baseImageFile).name}.png`));
-    //     console.log(topImage)
-    //     console.log(path.join(baseImageDir + "/DIMS 180", `${path.parse(baseImageFile).name}.png`))
-
-    //   console.log(`Image processing complete for ${baseImageFile}:`, finalImage);
-
-    //   // Composite the flipped images and save as PNG without compression artifacts
-    //   const finalFlippedImage = await sharp(baseImage)
-    //     .composite(compositeOptionsFlipped)
-    //     .png({ compressionLevel: 7 }) // Use compressionLevel: 0 for no compression artifacts
-    //     .toFile(path.join(baseImageDir + "/DIMS 180", `${path.parse(baseImageFile).name}_Flipped.png`));
-    //     console.log(topImage)
-    //     console.log(path.join(baseImageDir + "/DIMS 180", `${path.parse(baseImageFile).name}_Flipped.png`))
-    //   console.log(`Flipped image processing complete for ${baseImageFile}:`, finalFlippedImage);
-    //   }
-
-    //   // if(matchingTopImageFile.toLowerCase().includes("2bra1")){
-    //     createImage()
-    //   // } 
-      
-
-    // }
-
-
-
-// Execute the function
 layerImages();

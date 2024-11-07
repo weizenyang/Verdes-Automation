@@ -8,11 +8,14 @@ async function applyLUT(imagePath, lutPath, outputImagePath) {
     const { lut, size } = parseCubeLUT(lutPath);
     const image = await loadImage(imagePath);
 
-    const canvas = createCanvas(image.width, image.height);
-    const ctx = canvas.getContext('2d');
-    ctx.drawImage(image, 0, 0);
+    const targetWidth = 4000;
+    const targetHeight = 2000;
 
-    const imageData = ctx.getImageData(0, 0, image.width, image.height);
+    const canvas = createCanvas(targetWidth, targetHeight);
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(image, 0, 0, targetWidth, targetHeight);
+
+    const imageData = ctx.getImageData(0, 0, targetWidth, targetHeight);
     const data = imageData.data;
 
     for (let i = 0; i < data.length; i += 4) {
@@ -44,25 +47,28 @@ async function applyLUT(imagePath, lutPath, outputImagePath) {
 
 async function applyLUTToDirectory(inputDir, lutPath, outputDir) {
   try {
-    // Read the .CUBE LUT file
     const { lut, size } = parseCubeLUT(lutPath);
 
-    // Ensure output directory exists
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir);
-    }
+    const filesAndDirs = fs.readdirSync(inputDir, { withFileTypes: true });
 
-    // Read all files in the input directory
-    const files = fs.readdirSync(inputDir);
+    for (const fileOrDir of filesAndDirs) {
+      const inputPath = path.join(inputDir, fileOrDir.name);
+      const outputPath = path.join(outputDir, fileOrDir.name);
 
-    // Process each file in the directory
-    for (const file of files) {
-      const filePath = path.join(inputDir, file);
-      const outputImagePath = path.join(outputDir, file);
+      if (fileOrDir.isDirectory()) {
+        // Recursively process subdirectories
+        await applyLUTToDirectory(inputPath, lutPath, outputPath);
+      } else if (fileOrDir.isFile()) {
+        // Check if it's an image file (only JPG, JPEG, PNG)
+        if (/\.(jpg|jpeg|png)$/i.test(fileOrDir.name)) {
+          // Ensure output directory exists
+          await fs.mkdir(path.dirname(outputPath), { recursive: true });
 
-      // Check if it's a file and an image (you can add more extensions if needed)
-      if (fs.statSync(filePath).isFile() && (file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png'))) {
-        await applyLUT(filePath, lutPath, outputImagePath);
+          // Process image file
+          await applyLUT(inputPath, lutPath, outputPath);
+        } else {
+          console.warn(`Skipping non-image file: ${fileOrDir.name}`);
+        }
       }
     }
 

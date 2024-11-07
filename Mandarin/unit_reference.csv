@@ -1,0 +1,228 @@
+Number,Unit Type,Standard/Mirrored
+T1-101,2BR + M (B1),Standard
+T1-102,2BR + M (C1),Standard
+T1-103,2BR + M (D1),Standard
+T1-104,1BR (A1),Standard
+T1-105,2BR + M (A1),Standard
+T1-106,2BR (A1),Standard
+T1-107,1BR (A2),Standard
+T1-108,1BR (B1),Standard
+T1-109,1BR (B2),Standard
+T1-110,1BR (A3),Standard
+T1-111,1BR (B3),Standard
+T1-112,1BR (B4),Standard
+T1-113,1BR (A4),Standard
+T1-114,2BR (A2),Standard
+T1-115,1BR (A5),Standard
+T1-116,1BR (A6),Standard
+T1-117,3BR + M (C1),Standard
+T1-118,3BR + M (B1),Standard
+T1-119,3BR + M (A1),Standard
+T2-101,2BR + M (B1),Mirrored
+T2-102,2BR + M (C1),Mirrored
+T2-103,2BR + M (D1),Mirrored
+T2-104,1BR (A1),Mirrored
+T2-105,2BR + M (A1),Mirrored
+T2-106,2BR (A1),Mirrored
+T2-107,1BR (A2),Mirrored
+T2-108,1BR (B1),Mirrored
+T2-109,1BR (B2),Mirrored
+T2-110,1BR (A3),Mirrored
+T2-111,1BR (B3),Mirrored
+T2-112,1BR (B4),Mirrored
+T2-113,1BR (A4),Mirrored
+T2-114,2BR (A2),Mirrored
+T2-115,1BR (A5),Mirrored
+T2-116,1BR (A6),Mirrored
+T2-117,3BR + M (C1),Mirrored
+T2-118,3BR + M (B1),Mirrored
+T2-119,3BR + M (A1),Mirrored
+T1-201,2BR + M (B1),Standard
+T1-202,2BR + M (C1),Standard
+T1-203,2BR + M (D1),Standard
+T1-204,1BR (A1),Standard
+T1-205,2BR + M (A1),Standard
+T1-206,2BR (A1),Standard
+T1-207,1BR (A2),Standard
+T1-208,1BR (B1),Standard
+T1-209,1BR (B2),Standard
+T1-210,1BR (A3),Standard
+T1-211,1BR (B3),Standard
+T1-212,1BR (B4),Standard
+T1-213,1BR (A4),Standard
+T1-214,2BR (B1),Standard
+T1-215,3BR + M (C2),Standard
+T1-216,3BR + M (B1),Standard
+T1-217,3BR + M (A1),Standard
+T2-201,2BR + M (B1),Mirrored
+T2-202,2BR + M (C1),Mirrored
+T2-203,2BR + M (D1),Mirrored
+T2-204,1BR (A1),Mirrored
+T1-205,2BR + M (A1),Mirrored
+T1-206,2BR (A1),Mirrored
+T1-207,1BR (A2),Mirrored
+T1-208,1BR (B1),Mirrored
+T1-209,1BR (B2),Mirrored
+T1-210,1BR (A3),Mirrored
+T1-211,1BR (B3),Mirrored
+T1-212,1BR (B4),Mirrored
+T1-213,1BR (A4),Mirrored
+T1-214,2BR (B1),Mirrored
+T1-215,3BR + M (C2),Mirrored
+T1-216,3BR + M (B1),Mirrored
+T1-217,3BR + M (A1),Mirrored
+T1-301,2BR + M (B1),Standard
+T1-302,2BR + M (C1),Standard
+T1-303,2BR + M (D1),Standard
+T1-304,1BR (A1),Standard
+T1-305,2BR + M (A1),Standard
+T1-306,2BR (A1),Standard
+T1-307,1BR (A2),Standard
+T1-308,1BR (B1),Standard
+T1-309,1BR (B2),Standard
+T1-310,1BR (A3),Standard
+T1-311,1BR (B3),Standard
+T1-312,1BR (B4),Standard
+T1-313,1BR (A4),Standard
+T1-314,3BR + M (C3),Standard
+T1-315,3BR + M (B1),Standard
+T1-316,3BR + M (A1),Standard
+T2-301,2BR + M (B1),Mirrored
+T2-302,2BR + M (C1),Mirrored
+T2-303,2BR + M (D1),Mirrored
+T2-304,1BR (A1),Mirrored
+T2-305,2BR + M (A1),Mirrored
+T2-306,2BR (A1),Mirrored
+T2-307,1BR (A2),Mirrored
+T2-308,1BR (B1),Mirrored
+T2-309,1BR (B2),Mirrored
+T2-310,1BR (A3),Mirrored
+T2-311,1BR (B3),Mirrored
+T2-312,1BR (B4),Mirrored
+T2-313,1BR (A4),Mirrored
+T2-314,3BR + M (C3),Mirrored
+T2-315,3BR + M (B1),Mirrored
+T2-316,3BR + M (A1),Mirrored
+T1-401,2BR + M (B1),Standard
+T1-402,2BR + M (C1),Standard
+T1-403,2BR + M (D1),Standard
+T1-404,1BR (A1),Standard
+T1-405,2BR + M (A1),Standard
+T1-406,2BR (A1),Standard
+T1-407,1BR (A2),Standard
+T1-408,1BR (B1),Standard
+T1-409,1BR (B2),Standard
+T1-410,1BR (A3),Standard
+T1-411,1BR (B3),Standard
+T1-412,1BR (B4),Standard
+T1-413,3BR + M (C4),Standard
+T1-414,3BR + M (D1),Standard
+T1-415,3BR + M (A1),Standard
+T2-401,2BR + M (B1),Mirrored
+T2-402,2BR + M (C1),Mirrored
+T2-403,2BR + M (D1),Mirrored
+T2-404,1BR (A1),Mirrored
+T2-405,2BR + M (A1),Mirrored
+T2-406,2BR (A1),Mirrored
+T2-407,1BR (A2),Mirrored
+T2-408,1BR (B1),Mirrored
+T2-409,1BR (B2),Mirrored
+T2-410,1BR (A3),Mirrored
+T2-411,1BR (B3),Mirrored
+T2-412,1BR (B4),Mirrored
+T2-413,3BR + M (C4),Mirrored
+T2-414,3BR + M (D1),Mirrored
+T2-415,3BR + M (A1),Mirrored
+T1-501,2BR + M (B1),Standard
+T1-502,2BR + M (C1),Standard
+T1-503,2BR + M (D1),Standard
+T1-504,1BR (A1),Standard
+T1-505,2BR + M (A1),Standard
+T1-506,2BR (A1),Standard
+T1-507,1BR (A2),Standard
+T1-508,1BR (B1),Standard
+T1-509,1BR (B2),Standard
+T1-510,1BR (A3),Standard
+T1-511,1BR (B3),Standard
+T1-512,1BR (B4),Standard
+T1-513,4BR + M (A1),Standard
+T1-514,3BR + M (A1),Standard
+T2-501,2BR + M (B1),Mirrored
+T2-502,2BR + M (C1),Mirrored
+T2-503,2BR + M (D1),Mirrored
+T2-504,1BR (A1),Mirrored
+T2-505,2BR + M (A1),Mirrored
+T2-506,2BR (A1),Mirrored
+T2-507,1BR (A2),Mirrored
+T2-508,1BR (B1),Mirrored
+T2-509,1BR (B2),Mirrored
+T2-510,1BR (A3),Mirrored
+T2-511,1BR (B3),Mirrored
+T2-512,1BR (B4),Mirrored
+T2-513,4BR+ M (A1),Mirrored
+T2-514,3BR + M (A1),Mirrored
+T1-601,2BR + M (B1),Standard
+T1-602,2BR + M (C1),Standard
+T1-603,2BR + M (D1),Standard
+T1-604,1BR (A1),Standard
+T1-605,2BR + M (A1),Standard
+T1-606,2BR (A1),Standard
+T1-607,1BR (A2),Standard
+T1-608,1BR (B1),Standard
+T1-609,1BR (B2),Standard
+T1-610,1BR (A3),Standard
+T1-611,3BR + M (C5),Standard
+T1-612,3BR + M (A1),Standard
+T2-601,2BR + M (B1),Mirrored
+T2-602,2BR + M (C1),Mirrored
+T2-603,2BR + M (D1),Mirrored
+T2-604,1BR (A1),Mirrored
+T2-605,2BR + M (A1),Mirrored
+T2-606,2BR (A1),Mirrored
+T2-607,1BR (A2),Mirrored
+T2-608,1BR (B1),Mirrored
+T2-609,1BR (B2),Mirrored
+T2-610,1BR (A3),Mirrored
+T2-611,3BR + M (C5),Mirrored
+T2-612,3BR + M (A1),Mirrored
+T1-701,2BR + M (B1),Standard
+T1-702,2BR + M (C1),Standard
+T1-703,2BR + M (D1),Standard
+T1-704,1BR (A1),Standard
+T1-705,2BR + M (A1),Standard
+T1-706,2BR (A1),Standard
+T1-707,1BR (A2),Standard
+T1-708,1BR (B1),Standard
+T1-709,3BR + M (C6),Standard
+T1-710,3BR + M (A2),Standard
+T2-701,2BR + M (B1),Mirrored
+T2-702,2BR + M (C1),Mirrored
+T2-703,2BR + M (D1),Mirrored
+T2-704,1BR (A1),Mirrored
+T2-705,2BR + M (A1),Mirrored
+T2-706,2BR (A1),Mirrored
+T2-707,1BR (A2),Mirrored
+T2-708,1BR (B1),Mirrored
+T2-709,3BR + M (C6),Mirrored
+T2-710,3BR + M (A2),Mirrored
+T1-801,2BR + M (B1),Standard
+T1-802,2BR + M (C1),Standard
+T1-803,2BR + M (D1),Standard
+T1-804,1BR (A1),Standard
+T1-805,2BR + M (A1),Standard
+T1-806,2BR (A1),Standard
+T1-807,1BR (A2),Standard
+T1-808,1BR (A7),Standard
+T1-809,3BR + M (C7),Standard
+T2-801,2BR + M (B1),Mirrored
+T2-802,2BR + M (C1),Mirrored
+T2-803,2BR + M (D1),Mirrored
+T2-804,1BR (A1),Mirrored
+T2-805,2BR + M (A1),Mirrored
+T2-806,2BR (A1),Mirrored
+T2-807,1BR (A2),Mirrored
+T2-808,1BR (A7),Mirrored
+T2-809,3BR + M (C7),Mirrored
+T1-901,Penthouse,Standard
+T2-901,Penthouse,Standard
+
