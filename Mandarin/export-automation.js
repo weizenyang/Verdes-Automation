@@ -15,8 +15,8 @@ const scriptGroups = {
   },
   composeTowerFloorplates: {
     output: './compose-tower-floorplates.exe',
-    scripts: ['./tower-floorplate.js'],
-    main: './tower-floorplate.js'
+    scripts: ['./tower-floorplate.cjs'],
+    main: './tower-floorplate.cjs'
   }
 };
 

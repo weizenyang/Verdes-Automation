@@ -1,6 +1,6 @@
-const imageComposer2 = require('./imageComposer2.js');
-const normalizeTypes = require('./normalizeTypes.js');
-const unitFloorplan = require('./unit-floorplan.js');
+const imageComposer2 = require('./imageComposer2.cjs');
+const normalizeTypes = require('./normalizeTypes.cjs');
+const unitFloorplan = require('./unit-floorplan.cjs');
 
 async function main() {
     try{
