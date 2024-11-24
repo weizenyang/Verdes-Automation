@@ -77,15 +77,19 @@ const objectify = (e, layer, folder) => {
 }
 
 
-function compareData(data1, data2) {
+function compareData(data1, data2, toIgnore = []) {
+
+  const data1Filtered = Object.fromEntries(Object.entries(data1).filter(([key]) => !toIgnore.includes(key)));
+  const data2Filtered = Object.fromEntries(Object.entries(data2).filter(([key]) => !toIgnore.includes(key)));
+
   // Early return if either data is null or undefined
-  if (!data1 || !data2) {
-    console.log(data1 ? "data2 is null or undefined" : "data1 is null or undefined");
+  if (!data1Filtered || !data2Filtered) {
+    console.log(data1Filtered ? "data2 is null or undefined" : "data1 is null or undefined");
     return false;
   }
 
   // Check if both objects have the same number of keys
-  if (Object.keys(data1).length !== Object.keys(data2).length) {
+  if (Object.keys(data1Filtered).length !== Object.keys(data2Filtered).length) {
     // console.log(data1)
     // console.log(data2)
     // console.log("Key length mismatch, returning false");
@@ -93,16 +97,16 @@ function compareData(data1, data2) {
   }
 
   // Compare values for each key in data1
-  for (let key in data1) {
-    if (data1[key] !== data2[key]) {
+  for (let key in data1Filtered) {
+    if (data1Filtered[key] !== data2Filtered[key]) {
       // console.log(`${key} doesn't match: ${data1[key]} !== ${data2[key]}`);
       return false;
     }
   }
 
   // Compare values for each key in data2 (in case of extra keys)
-  for (let key in data2) {
-    if (data1[key] !== data2[key]) {
+  for (let key in data2Filtered) {
+    if (data1Filtered[key] !== data2Filtered[key]) {
       // console.log(`${key} doesn't match: ${data1[key]} !== ${data2[key]}`);
       return false;
     }
@@ -150,14 +154,12 @@ async function compositeImages(baseImageObj, topImagesObj) {
     const finalRotation = filteredConfig[0].parent.rotation + thisConfig.config.rotation
 
     function normalizeRotation(rotation) {
-        return ((rotation % 360) + 360) % 360;
+      return ((rotation % 360) + 360) % 360;
     }
-
 
     baseImageObj.config.rotation = normalizeRotation(finalRotation)
     
     console.log(baseImageObj.config.rotation)
-
 
     const folderNames = path.join(outputDir, Object.values(baseImageObj.config).join("_"));
     await fs.mkdir(folderNames, { recursive: true });
@@ -286,10 +288,6 @@ async function layerImages() {
             thisTopImages.push(...batch3)
             imageRef = imageRef.filter(e => !batch3.some(batchItem => compareData(batchItem, e.imageData)));
           }
-          
-          
-
-
 
         if (thisTopImages.length > 0) {
           // Set configuration to the base image

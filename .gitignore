@@ -16,6 +16,7 @@
 *.ai
 *.eps
 *.zip
+*.exe
 
 # Ignore image files in all directories
 **/*.jpg
@@ -35,6 +36,7 @@
 **/*.ai
 **/*.eps
 **/*.zip
+**/*.exe
 
 /Ignore Folder/
 *.glb

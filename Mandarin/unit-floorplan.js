@@ -4,6 +4,7 @@ const csv = require('fast-csv');
 const sharp = require('sharp');
 
 const outputFilePath = "./Unit Floorplans"
+const outputCSVFilePath = "./Floorplan CSV/output"
 const inputFileDir = "./Floorplans/typeCorrected"
 const jsonFilePath = './unit-reference.json';
 const csvFolderPath = './Arthouse/floorplan/Unit matched types/NEW/S2 240806 Flipped/csv5';
@@ -18,8 +19,8 @@ const unfinishedTypes = []
 let promises = []
 
 unitData.forEach((unit) => {
-  
-  const subfolder = unit.flip ? "Flipped" : "Normal"
+  const flipData = unit.name.toLowerCase().includes("b2") ? !unit.flip : unit.flip
+  const subfolder = flipData ? "Flipped" : "Normal"
   const selectedFolder = path.join(inputFileDir, subfolder)
   console.log(unit.type)
   const selectedTypeImage = fs.readdirSync(selectedFolder).filter(e => e.includes(unit.type))[0]
@@ -34,33 +35,45 @@ unitData.forEach((unit) => {
     const unitNumber = name.split("-")[1].slice(-2)
     const selectedTypeImagePath = path.join(selectedFolder, selectedTypeImage)
     // const selectedImageBuffer = fs.readFileSync(selectedTypeImagePath)
-    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type].join("_"))
-    try{
+    console.log(unit.type.split("_")[5])
+    // const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4], unit.type.split("_")[5]].join("_"))
+    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4], unit.type.split("_")[5]].join("_"))
+    try {
       // fs.writeFileSync(selectedImageBuffer, path.join(outputFilePath, finalName))
       const newPromise = exportCompressedImage(selectedTypeImagePath, path.join(outputFilePath, finalName.split(".")[0]))
+      // generateEmptyCSV(path.join(outputCSVFilePath, finalName.split(".")[0]));
       promises.push(newPromise)
     } catch (e) {
       console.error(e)
-      unfinishedUnits.push(unit.name)
-      unfinishedTypes.push(unit.type)
+      if(!unfinishedUnits.includes(unit.name)){
+        unfinishedUnits.push(unit.name)
+      }
+      if(!unfinishedTypes.includes(unit.type)){
+        unfinishedTypes.push(unit.type)
+      }
     }
 
   } else {
     console.log(`${unit.name} is not processed`)
     console.log(unit.name)
-    unfinishedUnits.push(unit.name)
-    unfinishedTypes.push(unit.type)
+    if(!unfinishedUnits.includes(unit.name)){
+      unfinishedUnits.push(unit.name)
+    }
+    if(!unfinishedTypes.includes(unit.type)){
+      unfinishedTypes.push(unit.type)
+    }
+    
   }
 })
 
-Promise.all(promises)
-.then(() => {
+Promise.all(promises).then(() => {
   if(unfinishedUnits.length > 0){
     console.error("Some images failed to process:", error)
     console.log(unfinishedUnits)
-    console.log(unfinishedUnits.length + " total units")
+    console.log(unfinishedUnits.length + " not processed")
     console.log(unfinishedTypes)
-    console.log(unfinishedTypes.length + " total types")
+    console.log(unfinishedTypes.length + " not processed")
+    console.log("Total Units " + unitData.length)
   } else {
     console.log("All images have been processed successfully.")
   }
@@ -68,9 +81,10 @@ Promise.all(promises)
 .catch((error) => {
   console.error("Some images failed to process:", error)
   console.log(unfinishedUnits)
-  console.log(unfinishedUnits.length + " total units")
+  console.log(unfinishedUnits.length + " not processed")
   console.log(unfinishedTypes)
-  console.log(unfinishedTypes.length + " total types")
+  console.log(unfinishedTypes.length + " not processed")
+  console.log("Total Units " + unitData.length)
 });
 
 
@@ -83,7 +97,7 @@ if(unfinishedUnits.length > 0){
 
 async function exportCompressedImage(inputPath, outputPath){
     return new Promise((resolve, reject) => {
-      sharp(inputPath).webp(80).toFile(`${outputPath}.webp`)
+      sharp(inputPath).webp(100).toFile(`${outputPath}.webp`)
       .then(info => {
         console.log(`Processed image saved: ${outputPath}.webp`);
         resolve(info);
@@ -125,6 +139,18 @@ function rotateCSV(inputFilePath, outputFilePath){
       .on('error', (error) => {
           console.error('Error processing CSV file:', error);
       });
+}
+
+function generateEmptyCSV(filePath) {
+ // Create the CSV directory if it doesn't exist
+ const dir = path.dirname(filePath);
+ if (!fs.existsSync(dir)) {
+   fs.mkdirSync(dir, { recursive: true });
+ }
+
+ // Write an empty string to the file
+ fs.writeFileSync(filePath + ".csv", '', 'utf8');
+ console.log(`Empty CSV file created at: ${filePath}`);
 }
 
 async function rotateImage(imagePath, schema) {

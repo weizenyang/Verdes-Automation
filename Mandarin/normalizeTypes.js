@@ -13,13 +13,17 @@ const jsonData = JSON.parse(jsonText);
 const typeData = jsonData.types
 const unitData = jsonData.units
 
+function normalizeRotation(rotation) {
+  return ((rotation % 360) + 360) % 360;
+}
+
 typeData.forEach((e) => {
     // console.log(e)
     // console.log(e.name)
     if(e.offset.rotation < 360){
         console.log(e.name)
         
-        const rotation = e.offset.rotation;
+        let rotation = e.offset.rotation;
         const flip = e.offset.flip;
         const flipVariations = [flip, !flip]
 
@@ -28,19 +32,25 @@ typeData.forEach((e) => {
 
 
           try{
+            if(i == 1 && (rotation == 90 || rotation == 270)){
+              rotation += 180
+              rotation = normalizeRotation(rotation)
+            }
+
             const folderName = [rotation, thisFlip].join("_")
+
+            console.log(folderName)
             const targetFolder = path.join(inputFileDir, folderName)
             const files = fs.readdirSync(targetFolder)
             const subFolder = i == 1 ? "Normal" : "Flipped"
+
             const outputWSubfolder = path.join(outputFilePath, subFolder)
     
             const selectedFile = files.filter(fileName => fileName.includes(e.parent.name))[0]
 
-
+            console.log(selectedFile)
             const buffer = fs.readFileSync(path.join(targetFolder, selectedFile))
             
-
-
             // fs.copyFileSync(path.join(targetFolder, selectedFile), path.join(outputWSubfolder, selectedFile))
             const renamed = selectedFile.replace(e.parent.name, e.name)
             fs.writeFileSync(path.join(outputWSubfolder, renamed), buffer)

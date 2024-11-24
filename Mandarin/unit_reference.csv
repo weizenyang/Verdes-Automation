@@ -58,19 +58,19 @@ T2-201,2BR + M (B1),Mirrored
 T2-202,2BR + M (C1),Mirrored
 T2-203,2BR + M (D1),Mirrored
 T2-204,1BR (A1),Mirrored
-T1-205,2BR + M (A1),Mirrored
-T1-206,2BR (A1),Mirrored
-T1-207,1BR (A2),Mirrored
-T1-208,1BR (B1),Mirrored
-T1-209,1BR (B2),Mirrored
-T1-210,1BR (A3),Mirrored
-T1-211,1BR (B3),Mirrored
-T1-212,1BR (B4),Mirrored
-T1-213,1BR (A4),Mirrored
-T1-214,2BR (B1),Mirrored
-T1-215,3BR + M (C2),Mirrored
-T1-216,3BR + M (B1),Mirrored
-T1-217,3BR + M (A1),Mirrored
+T2-205,2BR + M (A1),Mirrored
+T2-206,2BR (A1),Mirrored
+T2-207,1BR (A2),Mirrored
+T2-208,1BR (B1),Mirrored
+T2-209,1BR (B2),Mirrored
+T2-210,1BR (A3),Mirrored
+T2-211,1BR (B3),Mirrored
+T2-212,1BR (B4),Mirrored
+T2-213,1BR (A4),Mirrored
+T2-214,2BR (B1),Mirrored
+T2-215,3BR + M (C2),Mirrored
+T2-216,3BR + M (B1),Mirrored
+T2-217,3BR + M (A1),Mirrored
 T1-301,2BR + M (B1),Standard
 T1-302,2BR + M (C1),Standard
 T1-303,2BR + M (D1),Standard
