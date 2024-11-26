@@ -1,0 +1,62 @@
+{
+    "project" : "Terra",
+    "towers" : [
+        {
+            "name" : "t1",
+            "type" : "t1",
+            "rotate": 25,
+            "flip": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t2",
+            "type" : "t2",
+            "rotate": -25,
+            "flip": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t3",
+            "type" : "t2",
+            "rotate": 25,
+            "flip": true,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t4",
+            "type" : "t1",
+            "rotate": 0,
+            "flip": true,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t5",
+            "type" : "t2",
+            "rotate": -25,
+            "flip": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t6",
+            "type" : "t1",
+            "rotate": 25,
+            "flip": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t7",
+            "type" : "t3",
+            "rotate": 0,
+            "flip": false,
+            "x" : 0,
+            "y" : 0
+        }
+    ]
+        
+}
