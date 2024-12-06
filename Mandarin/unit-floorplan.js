@@ -37,7 +37,7 @@ unitData.forEach((unit) => {
     // const selectedImageBuffer = fs.readFileSync(selectedTypeImagePath)
     console.log(unit.type.split("_")[5])
     // const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4], unit.type.split("_")[5]].join("_"))
-    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4], unit.type.split("_")[5]].join("_"))
+    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type].join("_"))
     try {
       // fs.writeFileSync(selectedImageBuffer, path.join(outputFilePath, finalName))
       const newPromise = exportCompressedImage(selectedTypeImagePath, path.join(outputFilePath, finalName.split(".")[0]))

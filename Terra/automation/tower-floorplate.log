@@ -1,99 +1,310 @@
-SelectedBaseImage backplate_image_floorplate_t1.png
-SelectedTopImage backplate_image_floorplate_t1_01.png,backplate_image_floorplate_t1_02.png,backplate_image_floorplate_t1_03.png,backplate_image_floorplate_t1_04.png,backplate_image_floorplate_t1_05.png,backplate_image_floorplate_t1_06.png,backplate_image_floorplate_t1_07.png,backplate_image_floorplate_t1_08.png,backplate_image_floorplate_t1_09.png
-Top Image: backplate_image_floorplate_t1_01.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_02.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_03.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_04.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_05.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_06.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_07.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_08.png
-Bottom Image: backplate_image_floorplate_t1.png
-Top Image: backplate_image_floorplate_t1_09.png
-Bottom Image: backplate_image_floorplate_t1.png
-Failed: selectedBaseImage t2 | selectedTopImages t2
-Failed: selectedBaseImage t3 | selectedTopImages t2
-SelectedBaseImage backplate_image_floorplate_t4.png
-SelectedTopImage backplate_image_floorplate_t1_01.png,backplate_image_floorplate_t1_02.png,backplate_image_floorplate_t1_03.png,backplate_image_floorplate_t1_04.png,backplate_image_floorplate_t1_05.png,backplate_image_floorplate_t1_06.png,backplate_image_floorplate_t1_07.png,backplate_image_floorplate_t1_08.png,backplate_image_floorplate_t1_09.png
-Top Image: backplate_image_floorplate_t1_01.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_02.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_03.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_04.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_05.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_06.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_07.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_08.png
-Bottom Image: backplate_image_floorplate_t4.png
-Top Image: backplate_image_floorplate_t1_09.png
-Bottom Image: backplate_image_floorplate_t4.png
-Failed: selectedBaseImage t5 | selectedTopImages t2
-Failed: selectedBaseImage t6 | selectedTopImages t1
-Failed: selectedBaseImage t7 | selectedTopImages t3
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_04.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_01.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_03.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_02.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_05.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_06.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_07.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_08.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_02.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_01.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_03.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_05.webp
-webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_04.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_01.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_03.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_02.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_06.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_05.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_07.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_08.webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_09.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_04.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_06.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_07.webp
-webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_02.webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_08.webp
-webp
-Output Path: ..\tower-floorplate\output\backplate_image_floorplate_t1_09.webp
-webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_01.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_03.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_05.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_09.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_04.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_06.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_08.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_07.webp
-Processed image saved: ..\tower-floorplate\output\backplate_image_floorplate_t1_09.webp
+SelectedBaseImage backplate_image_floorplan_t01.png
+SelectedTopImage backplate_image_floorplan_t01_l01.png,backplate_image_floorplan_t01_l02.png,backplate_image_floorplan_t01_l03.png,backplate_image_floorplan_t01_l04.png,backplate_image_floorplan_t01_l05.png,backplate_image_floorplan_t01_l06.png,backplate_image_floorplan_t01_l07.png,backplate_image_floorplan_t01_l08.png,backplate_image_floorplan_t01_l09.png,backplate_image_floorplan_t01_l10.png
+Top Image: backplate_image_floorplan_t01_l01.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l02.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l03.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l04.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l05.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l06.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l07.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l08.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l09.png
+Bottom Image: backplate_image_floorplan_t01.png
+Top Image: backplate_image_floorplan_t01_l10.png
+Bottom Image: backplate_image_floorplan_t01.png
+Failed: selectedBaseImage t02 | selectedTopImages t05
+Failed: selectedBaseImage t03 | selectedTopImages t05
+SelectedBaseImage backplate_image_floorplan_t04.png
+SelectedTopImage backplate_image_floorplan_t01_l01.png,backplate_image_floorplan_t01_l02.png,backplate_image_floorplan_t01_l03.png,backplate_image_floorplan_t01_l04.png,backplate_image_floorplan_t01_l05.png,backplate_image_floorplan_t01_l06.png,backplate_image_floorplan_t01_l07.png,backplate_image_floorplan_t01_l08.png,backplate_image_floorplan_t01_l09.png,backplate_image_floorplan_t01_l10.png
+Top Image: backplate_image_floorplan_t01_l01.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l02.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l03.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l04.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l05.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l06.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l07.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l08.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l09.png
+Bottom Image: backplate_image_floorplan_t04.png
+Top Image: backplate_image_floorplan_t01_l10.png
+Bottom Image: backplate_image_floorplan_t04.png
+Failed: selectedBaseImage t05 | selectedTopImages t05
+SelectedBaseImage backplate_image_floorplan_t06.png
+SelectedTopImage backplate_image_floorplan_t01_l01.png,backplate_image_floorplan_t01_l02.png,backplate_image_floorplan_t01_l03.png,backplate_image_floorplan_t01_l04.png,backplate_image_floorplan_t01_l05.png,backplate_image_floorplan_t01_l06.png,backplate_image_floorplan_t01_l07.png,backplate_image_floorplan_t01_l08.png,backplate_image_floorplan_t01_l09.png,backplate_image_floorplan_t01_l10.png
+Top Image: backplate_image_floorplan_t01_l01.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l02.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l03.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l04.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l05.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l06.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l07.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l08.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l09.png
+Bottom Image: backplate_image_floorplan_t06.png
+Top Image: backplate_image_floorplan_t01_l10.png
+Bottom Image: backplate_image_floorplan_t06.png
+Failed: selectedBaseImage t07 | selectedTopImages t03
+backplate_image_floorplan_t01_l03.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+backplate_image_floorplan_t01_l02.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+backplate_image_floorplan_t01_l04.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+backplate_image_floorplan_t01_l05.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+backplate_image_floorplan_t01_l01.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+backplate_image_floorplan_t01_l06.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+backplate_image_floorplan_t01_l08.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+backplate_image_floorplan_t01_l10.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+backplate_image_floorplan_t01_l07.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+backplate_image_floorplan_t01_l09.png
+backplate_image_floorplan_t01.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp
+backplate_image_floorplan_t01_l02.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+backplate_image_floorplan_t01_l01.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+backplate_image_floorplan_t01_l03.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+backplate_image_floorplan_t01_l04.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+backplate_image_floorplan_t01_l10.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+backplate_image_floorplan_t01_l05.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+backplate_image_floorplan_t01_l06.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+backplate_image_floorplan_t01_l07.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+backplate_image_floorplan_t01_l08.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+backplate_image_floorplan_t01_l09.png
+backplate_image_floorplan_t04.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp
+backplate_image_floorplan_t01_l01.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+backplate_image_floorplan_t01_l02.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+backplate_image_floorplan_t01_l03.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+backplate_image_floorplan_t01_l04.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+backplate_image_floorplan_t01_l06.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp
+backplate_image_floorplan_t01_l05.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+backplate_image_floorplan_t01_l10.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+backplate_image_floorplan_t01_l07.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+backplate_image_floorplan_t01_l08.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+backplate_image_floorplan_t01_l09.png
+backplate_image_floorplan_t06.png
+undefined
+undefined
+undefined
+undefined
+Output Path: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l01.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l02.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l03.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l04.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l06.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l05.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l10.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l07.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l08.webp
+Processed image saved: ..\tower-floorplate\output\backplate_image_floorplan_t01_l09.webp

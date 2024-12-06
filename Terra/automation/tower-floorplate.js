@@ -53,8 +53,12 @@ async function loadImages(imageFile, transformations){
     
     let loadedImage = sharp(thisImagePath).resize(width, height)
 
-    if(Object.keys(transformations).includes("flip")){
-        loadedImage = loadedImage.flop(transformations.flip)
+    if(Object.keys(transformations).includes("flipY")){
+        loadedImage = loadedImage.flop(transformations.flipY)
+    }
+
+    if(Object.keys(transformations).includes("flipX")){
+        loadedImage = loadedImage.flip(transformations.flipX)
     }
 
     // if(Object.keys(transformations).includes("rotate")){
@@ -113,8 +117,9 @@ async function compositeImages(topImage, bottomImage) {
     // Construct output path
     const outputPath = path.join(output, `${baseName.replace(topImage.config.type, topImage.config.name)}.webp`);
 
+    console.log(topImage.image)
+    console.log(bottomImage.image)
     console.log("Output Path: " + outputPath)
-    console.log(outputPath.split(".")[outputPath.split(".").length - 1])
     
 
     await sharp({
@@ -160,7 +165,7 @@ const towers = config.towers
             console.log("SelectedTopImage " + selectedTopImages)
             selectedTopImages.forEach((topImage) => {
                 const baseImageConfig = {flip: false, rotate: 0, x: 0, y: 0}
-                const topImageConfig = {flip: e.flip, rotate: e.rotate, x: e.x, y: e.y}
+                const topImageConfig = {flip: e.flip, rotate: e.rotate, x: e.x, y: e.y, type: e.type, name: e.name}
                 let baseImageObj = {image: selectedBaseImage, config: baseImageConfig}
                 let topImageObj = {image: topImage, config: topImageConfig}
                 compositeImages(topImageObj, baseImageObj)

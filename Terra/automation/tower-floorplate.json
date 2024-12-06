@@ -2,58 +2,65 @@
     "project" : "Terra",
     "towers" : [
         {
-            "name" : "t1",
-            "type" : "t1",
-            "rotate": 25,
-            "flip": false,
-            "x" : 0,
-            "y" : 0
-        },
-        {
-            "name" : "t2",
-            "type" : "t2",
-            "rotate": -25,
-            "flip": false,
-            "x" : 0,
-            "y" : 0
-        },
-        {
-            "name" : "t3",
-            "type" : "t2",
-            "rotate": 25,
-            "flip": true,
-            "x" : 0,
-            "y" : 0
-        },
-        {
-            "name" : "t4",
-            "type" : "t1",
+            "name" : "t01",
+            "type" : "t01",
             "rotate": 0,
-            "flip": true,
+            "flipX": false,
+            "flipY": false,
             "x" : 0,
             "y" : 0
         },
         {
-            "name" : "t5",
-            "type" : "t2",
-            "rotate": -25,
-            "flip": false,
-            "x" : 0,
-            "y" : 0
-        },
-        {
-            "name" : "t6",
-            "type" : "t1",
-            "rotate": 25,
-            "flip": false,
-            "x" : 0,
-            "y" : 0
-        },
-        {
-            "name" : "t7",
-            "type" : "t3",
+            "name" : "t02",
+            "type" : "t05",
             "rotate": 0,
-            "flip": false,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t03",
+            "type" : "t05",
+            "rotate": 0,
+            "flipX": true,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t04",
+            "type" : "t01",
+            "rotate": 0,
+            "flipX": true,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t05",
+            "type" : "t05",
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t06",
+            "type" : "t01",
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "t07",
+            "type" : "t07",
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
             "x" : 0,
             "y" : 0
         }
