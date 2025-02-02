@@ -1,0 +1,22 @@
+{
+  "name": "mandarin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imageComposer2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ocr-editing.js && node imageComposer2.js && node unit-floorplan.js",
+    "after-compose": "node imageComposer2.js && node unit-floorplan.js"
+  },
+  "author": "EWei",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "fast-csv": "^5.0.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "node": "^18.18.0",
+    "pkg": "^5.8.1",
+    "pkg-fetch": "^3.5.2",
+    "sharp": "^0.33.5"
+  }
+}

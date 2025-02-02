@@ -8,26 +8,6 @@ const output = "./floorplate/output"
 
 const files = fs.readdirSync(input)
 
-const logFilePath = "./app.log";
-
-// // Helper function to append logs to a file
-// async function log(message) {
-//   const logMessage = `${new Date().toISOString()} - ${message}\n`;
-//   await Deno.writeTextFile(logFilePath, logMessage, { append: true });
-//   console.log(message); // Still prints to the console
-// }
-
-// // Example task that logs messages
-// console.log("App is running. Logs will be saved to app.log.");
-// await log("Application started.");
-
-// setInterval(async () => {
-//   await log("App is still running...");
-// }, 5000);
-
-// // Keep the app running
-// await new Promise(() => {});
-
 console.log(files)
 
 var baseImages = files.filter((e) => {
@@ -76,7 +56,7 @@ async function compositeImages(topImage, bottomImage) {
         .webp(90)
         .toFile(outputPath.split(".")[0] + ".webp")
         .then(info => {
-            console.log(`Processed image saved: ${outputPath}`);
+            console.log(`Processed image saved: ${outputPath.split(".")[0] + ".webp"}`);
         })
         .catch(error => {
             console.log(error);

@@ -20,7 +20,8 @@ let promises = []
 
 unitData.forEach((unit) => {
   const flipData = unit.name.toLowerCase().includes("b2") ? !unit.flip : unit.flip
-  const subfolder = flipData ? "Flipped" : "Normal"
+  const unitFlip = unit.flip ? !flipData : flipData
+  const subfolder = unitFlip ? "Flipped" : "Normal"
   const selectedFolder = path.join(inputFileDir, subfolder)
   console.log(unit.type)
   const selectedTypeImage = fs.readdirSync(selectedFolder).filter(e => e.includes(unit.type))[0]

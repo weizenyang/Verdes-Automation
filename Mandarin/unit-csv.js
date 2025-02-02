@@ -86,6 +86,7 @@ async function editCSV(file, config){
   console.log(config)
 
   let csvData = fs.readFileSync(path.join(inputFileDir, file), 'utf-8');
+  // RotateCSV based on type + unit rotation
   csvData = rotateCSV(csvData, normalizeRotation(finalRotation))
   if(config.flip){
     csvData = flipCSV(csvData, "y")
@@ -274,8 +275,13 @@ function rotateCSV(csv, rotationAngle) {
       const yRotated = x * Math.sin(radians) + y * Math.cos(radians);
 
       // Translate back from center
-      const finalX = xRotated + center;
-      const finalY = yRotated + center;
+      let finalX = xRotated + center;
+      let finalY = yRotated + center;
+
+      if(rotationAngle == 180){
+        //Standard label size on the web client * scale to be set (Coordinate with engineers)
+        finalY -= 49.083 * 0.75
+      }
 
       // Return as an array to format into CSV later
       return [row[0], finalY, finalX, ...row.slice(3)];

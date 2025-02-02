@@ -1,0 +1,4804 @@
+{
+  "units": [
+    {
+      "name": "manarat-101",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-102",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-103",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-104",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-105",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-106",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-107",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-108",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-109",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-110",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-111",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-112",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-113",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-114",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-115",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-116",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-117",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-118",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-119",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-120",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-121",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-122",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-123",
+      "type": "a_s_2b_a2S_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-124",
+      "type": "a_s_2b_a2S_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-125",
+      "type": "a_s_2b_a2S_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-126",
+      "type": "a_s_2b_a3_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-201",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-202",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-203",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-204",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-205",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-206",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-207",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-208",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-209",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-210",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-211",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-212",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-213",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-214",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-215",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-216",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-217",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-218",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-219",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-220",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-221",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-222",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-223",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-224",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-225",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-226",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-227",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-228",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-229",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-230",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-231",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-232",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-233",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-234",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-235",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-236",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-237",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-238",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-239",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-301",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-302",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-303",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-304",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-305",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-306",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-307",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-308",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-309",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-310",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-311",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-312",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-313",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-314",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-315",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-316",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-317",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-318",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-319",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-320",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-321",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-322",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-323",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-324",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-325",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-326",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-327",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-328",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-329",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-330",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-331",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-332",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-333",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-334",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-335",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-336",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-337",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-338",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-339",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-401",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-402",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-403",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-404",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-405",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-406",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-407",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-408",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-409",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-410",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-411",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-412",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-413",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-414",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-415",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-416",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-417",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-418",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-419",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-420",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-421",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-422",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-423",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-424",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-425",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-426",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-427",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-428",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-429",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-430",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-431",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-432",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-433",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-434",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-435",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-436",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-437",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-438",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-439",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-501",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-502",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-503",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-504",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-505",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-506",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-507",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-508",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-509",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-510",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-511",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-512",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-513",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-514",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-515",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-516",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-517",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-518",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-519",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-520",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-521",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-522",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-523",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-524",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-525",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-526",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-527",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-528",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-529",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-530",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-531",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-532",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-533",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-534",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-535",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-536",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-537",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-538",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-539",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-601",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-602",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-603",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-604",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-605",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-606",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-607",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-608",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-609",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-610",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-611",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-612",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-613",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-614",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-615",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-616",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-617",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-618",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-619",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-620",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-621",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-622",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-623",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-624",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-625",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-626",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-627",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-628",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-629",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-630",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-631",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-632",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-633",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-634",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-635",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-636",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-637",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-638",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-639",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-701",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-702",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-703",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-704",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-705",
+      "type": "a_s_1b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-706",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-707",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-708",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-709",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-710",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-711",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-712",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-713",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-714",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-715",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-716",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-717",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-718",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-719",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-720",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-721",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-722",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-723",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-724",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-725",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-726",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-727",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-728",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-729",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-730",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-731",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-732",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-733",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-734",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-735",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-736",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-737",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-738",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-739",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-801",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-802",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-803",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-804",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-805",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-806",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-807",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-808",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-809",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-810",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-811",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-812",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-813",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-814",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-815",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-816",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-817",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-818",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-819",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-820",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-821",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-822",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-823",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-824",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-825",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-826",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-827",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-828",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-829",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-830",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-831",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-832",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-901",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-902",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-903",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-904",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-905",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-906",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-907",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-908",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-909",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-910",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-911",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-912",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-913",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-914",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-915",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-916",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-917",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-918",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-919",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-920",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-921",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-922",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-923",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-924",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-925",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-926",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-927",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1001",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1002",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1003",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1004",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1005",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1006",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1007",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1008",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1009",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1010",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1011",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1012",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1013",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1014",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1015",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1016",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1017",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1018",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1019",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1020",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1021",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1022",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1023",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1024",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1025",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1026",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1027",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1101",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1102",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1103",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1104",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1105",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1106",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1107",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1108",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1109",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1110",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1111",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1112",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1113",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1114",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1115",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1116",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1117",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1118",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1119",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1120",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1121",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1122",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1123",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1124",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1125",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1126",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1127",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1201",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1202",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1203",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1204",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1205",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1206",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1207",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1208",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1209",
+      "type": "a_s_3b_a3m_s1_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1210",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1211",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1212",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1213",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1214",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1215",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1216",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1217",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1218",
+      "type": "a_s_1b_b1_s1_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1219",
+      "type": "a_s_2b_a2_s1_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1220",
+      "type": "a_s_2b_a3s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1221",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1222",
+      "type": "a_s_2b_a1s_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1223",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1224",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1225",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1226",
+      "type": "a_s_1b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1227",
+      "type": "a_s_2b_a1_s1_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-101",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-102",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-103",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-104",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-105",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-106",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-107",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-108",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-109",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-110",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-111",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-112",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-113",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-114",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-115",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-116",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-117",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-118",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-119",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-120",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-121",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-122",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-123",
+      "type": "a_s_2b_a2S_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-124",
+      "type": "a_s_2b_a2S_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-125",
+      "type": "a_s_2b_a2S_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-126",
+      "type": "a_s_2b_a3_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-201",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-202",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-203",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-204",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-205",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-206",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-207",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-208",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-209",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-210",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-211",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-212",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-213",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-214",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-215",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-216",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-217",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-218",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-219",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-220",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-221",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-222",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-223",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-224",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-225",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-226",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-227",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-228",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-229",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-230",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-231",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-232",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-233",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-234",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-235",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-236",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-237",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-238",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-239",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-301",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-302",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-303",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-304",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-305",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-306",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-307",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-308",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-309",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-310",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-311",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-312",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-313",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-314",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-315",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-316",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-317",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-318",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-319",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-320",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-321",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-322",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-323",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-324",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-325",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-326",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-327",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-328",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-329",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-330",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-331",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-332",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-333",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-334",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-335",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-336",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-337",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-338",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-339",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-401",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-402",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-403",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-404",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-405",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-406",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-407",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-408",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-409",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-410",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-411",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-412",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-413",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-414",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-415",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-416",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-417",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-418",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-419",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-420",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-421",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-422",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-423",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-424",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-425",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-426",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-427",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-428",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-429",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-430",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-431",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-432",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-433",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-434",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-435",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-436",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-437",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-438",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-439",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-501",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-502",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-503",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-504",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-505",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-506",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-507",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-508",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-509",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-510",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-511",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-512",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-513",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-514",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-515",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-516",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-517",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-518",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-519",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-520",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-521",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-522",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-523",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-524",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-525",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-526",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-527",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-528",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-529",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-530",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-531",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-532",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-533",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-534",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-535",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-536",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-537",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-538",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-539",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-601",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-602",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-603",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-604",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-605",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-606",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-607",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-608",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-609",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-610",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-611",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-612",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-613",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-614",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-615",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-616",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-617",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-618",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-619",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-620",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-621",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-622",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-623",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-624",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-625",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-626",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-627",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-628",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-629",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-630",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-631",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-632",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-633",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-634",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-635",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-636",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-637",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-638",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-639",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-701",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-702",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-703",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-704",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-705",
+      "type": "a_s_1b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-706",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-707",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-708",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-709",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-710",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-711",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-712",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-713",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-714",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-715",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-716",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-717",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-718",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-719",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-720",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-721",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-722",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-723",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-724",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-725",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-726",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-727",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-728",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-729",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-730",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-731",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-732",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-733",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-734",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-735",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-736",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-737",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-738",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-739",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-801",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-802",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-803",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-804",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-805",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-806",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-807",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-808",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-809",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-810",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-811",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-812",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-813",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-814",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-815",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-816",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-817",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-818",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-819",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-820",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-821",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-822",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-823",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-824",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-825",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-826",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-827",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-828",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-829",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-830",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-831",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-832",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-901",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-902",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-903",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-904",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-905",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-906",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-907",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-908",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-909",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-910",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-911",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-912",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-913",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-914",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-915",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-916",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-917",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-918",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-919",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-920",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-921",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-922",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-923",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-924",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-925",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-926",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-927",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1001",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1002",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1003",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1004",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1005",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1006",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1007",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1008",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1009",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1010",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1011",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1012",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1013",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1014",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1015",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1016",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1017",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1018",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1019",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1020",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1021",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1022",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1023",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1024",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1025",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1026",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1027",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1101",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1102",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1103",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1104",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1105",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1106",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1107",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1108",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1109",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1110",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1111",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1112",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1113",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1114",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1115",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1116",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1117",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1118",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1119",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1120",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1121",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1122",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1123",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1124",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1125",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1126",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1127",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1201",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1202",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1203",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1204",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1205",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1206",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1207",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1208",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1209",
+      "type": "a_s_3b_a3m_s2_0",
+      "flip": "false",
+      "rotation": 270
+    },
+    {
+      "name": "manarat-1210",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1211",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1212",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1213",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1214",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1215",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1216",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1217",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1218",
+      "type": "a_s_1b_b1_s2_0",
+      "flip": "true",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1219",
+      "type": "a_s_2b_a2_s2_0",
+      "flip": "false",
+      "rotation": 180
+    },
+    {
+      "name": "manarat-1220",
+      "type": "a_s_2b_a3s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1221",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1222",
+      "type": "a_s_2b_a1s_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1223",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 0
+    },
+    {
+      "name": "manarat-1224",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1225",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1226",
+      "type": "a_s_1b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    },
+    {
+      "name": "manarat-1227",
+      "type": "a_s_2b_a1_s2_0",
+      "flip": "false",
+      "rotation": 90
+    }
+  ]
+}
