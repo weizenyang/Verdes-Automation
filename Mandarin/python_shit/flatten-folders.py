@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, scrolledtext, messagebox
 
 class FileMoverApp:
+    
     def __init__(self, root):
         self.root = root
         self.root.title("File Mover Utility")

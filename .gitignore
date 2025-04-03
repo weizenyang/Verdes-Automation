@@ -48,3 +48,6 @@
 *.fbx
 *.blend
 *.blend1
+
+**/build/
+**/dist/

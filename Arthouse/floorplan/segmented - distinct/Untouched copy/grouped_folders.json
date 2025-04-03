@@ -1,0 +1,33 @@
+{
+    "types":[
+        "a_s_1b_a1_s1_0",
+        "a_s_1b_a2_s1_0",
+        "a_s_1b_a3_s1_0",
+        "a_s_2b_a1_s1_0",
+        "a_s_2b_a1st_s1_0",
+        "a_s_2b_a2_s1_0",
+        "a_s_2b_b1m_s1_0",
+        "a_s_3b_a1m_s1_0",
+        "a_s_3b_a2m_s1_0",
+        "a_s_3b_a3m_s1_0",
+        "a_s_3b_b1m_s1_0",
+        "a_s_3b_b2m_s1_0"
+    ],
+    "types_available":[
+        "a_s_1b_a1_s1_0",
+        "a_s_1b_a2_s1_0",
+        "a_s_1b_a3_s1_0",
+        "a_s_2b_a1_s1_0",
+        "a_s_2b_a1st_s1_0",
+        "a_s_2b_a2_s1_0",
+        "a_s_2b_b1m_s1_0",
+        "a_s_3b_a1m_s1_0",
+        "a_s_3b_a2m_s1_0",
+        "a_s_3b_a3m_s1_0",
+        "a_s_3b_a4m_s1_0",
+        "a_s_3b_b1m_s1_0",
+        "a_s_3b_b2m_s1_0",
+        "a_s_5b_svm_s1_0"
+    ]
+    
+}

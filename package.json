@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@gltf-transform/core": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^5.0.2",
+    "fbx2gltf": "^0.9.7-p1",
+    "gltf-pipeline": "^4.1.0",
+    "sharp": "^0.33.5",
+    "svgpath": "^2.6.0",
+    "tesseract.js": "^6.0.0",
+    "xml2js": "^0.6.2"
+  }
+}

@@ -1,9 +1,20 @@
 {
-    "project" : "Terra",
+    "project" : "terraresidences",
     "towers" : [
         {
-            "name" : "t01",
-            "type" : "t01",
+            "name" : "b1",
+            "type" : "b1",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": false,
             "flipY": false,
@@ -11,8 +22,19 @@
             "y" : 0
         },
         {
-            "name" : "t02",
-            "type" : "t05",
+            "name" : "b2",
+            "type" : "b2",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": false,
             "flipY": false,
@@ -20,8 +42,19 @@
             "y" : 0
         },
         {
-            "name" : "t03",
-            "type" : "t05",
+            "name" : "b3",
+            "type" : "b3",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": true,
             "flipY": false,
@@ -29,8 +62,19 @@
             "y" : 0
         },
         {
-            "name" : "t04",
-            "type" : "t01",
+            "name" : "b4",
+            "type" : "b4",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": true,
             "flipY": false,
@@ -38,8 +82,19 @@
             "y" : 0
         },
         {
-            "name" : "t05",
-            "type" : "t05",
+            "name" : "b5",
+            "type" : "b5",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": false,
             "flipY": false,
@@ -47,17 +102,39 @@
             "y" : 0
         },
         {
-            "name" : "t06",
-            "type" : "t01",
+            "name" : "b6",
+            "type" : "b6",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
-            "flipX": false,
+            "flipX": true,
             "flipY": false,
             "x" : 0,
             "y" : 0
         },
         {
-            "name" : "t07",
-            "type" : "t07",
+            "name" : "b7",
+            "type" : "b7",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "04",
+                    "duplicate" : ["06", "08"]
+                }
+            ],
             "rotate": 0,
             "flipX": false,
             "flipY": false,

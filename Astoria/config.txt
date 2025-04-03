@@ -1,0 +1,5 @@
+ALPHA Folder: /Users/weizenyang/Downloads/Terra 3b_a1 alpha/ALPHA
+MASKS Folder: /Users/weizenyang/Downloads/Terra 3b_a1 alpha/MASKS
+Output Folder: /Users/weizenyang/Downloads/Terra 3b_a1 alpha/OUTPUT
+Overlay Percentage: 50.0
+Luminance Range: 5.0

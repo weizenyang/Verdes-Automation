@@ -83,7 +83,7 @@ function editCSV(file, config){
 
   const finalRotation = filteredConfig[0].parent.rotation + config.rotation
 
-  console.log(config)
+  // console.log(config)
 
   let csvData = fs.readFileSync(path.join(inputFileDir, file), 'utf-8');
   // RotateCSV based on type + unit rotation
@@ -174,19 +174,21 @@ unitData.forEach((unit) => {
   // const selectedFolder = path.join(typeCorrectedFileDir, subfolder)
   console.log(`${unit.name} | Rotate: ${rotate} | Flip: ${flipData}` )
   const selectedTypeImage = fs.readdirSync(selectedFolder).filter(e => e.includes(unit.type))[0]
-
+  console.log("selectedTypeImage")
 
   if(selectedTypeImage){
     console.log(`${unit.name} is processed`)
-    console.log(selectedFolder)
-    console.log(selectedTypeImage)
+    // console.log(selectedFolder)
+    // console.log(selectedTypeImage)
     const name = unit.name.toLowerCase()
     const tower = name.split("-")[0]
     const level = name.split("-")[1].length > 3 ? name.split("-")[1].substr(0, 2) : `0${name.split("-")[1].substr(0, 1)}`
+    console.log("Level")
+    console.log(level)
     const unitNumber = name.split("-")[1].slice(-2)
     const selectedTypeImagePath = path.join(selectedFolder, selectedTypeImage)
     // const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type].join("_"))
-    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4]].join("_"))
+    const finalName = selectedTypeImage.replace(unit.type, [[tower, level, unitNumber].join("-"), unit.type.split("_")[4]].join("_"), level)
     try {
       // fs.writeFileSync(selectedImageBuffer, path.join(outputFilePath, finalName))
       const newPromise = exportUnitLabel(selectedTypeImagePath, path.join(unitFileDir, editName(finalName.split(".")[0], true)))

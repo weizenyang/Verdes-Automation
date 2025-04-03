@@ -64,11 +64,14 @@ function compareData(data1, data2, toIgnore = {keys: ["imageType"]}) {
 }
 
 function objectify(e, layer, folder) {
+  
   const squareBracketMatch = e.name.match(/\[(.*?)\]/);
   const tempModifications = squareBracketMatch ? squareBracketMatch[1].split("_"): [];
   const properties = tempModifications.length > 0
     ? e.name.split("-")[1].split(".")[0].split("_")
     : e.name.split(".")[0].split("_");
+
+    console.log(properties)
 
   let modifications = {
     flip : tempModifications.includes("flipped"),
@@ -243,23 +246,36 @@ if (isMainThread) {
       const backplateImages = [];
 
       baseImage.forEach((e) => {
-        const imageObject = objectify(e, Layer.BaseImage, floorplans);
-        backplateImages.push(imageObject);
+        // console.log(e)
+        if(!e.name.toLowerCase().includes('ss')){
+          const imageObject = objectify(e, Layer.BaseImage, floorplans);
+          backplateImages.push(imageObject);
+        }
+
       });
 
       balconyImage.forEach((e) => {
-        const imageObject = objectify(e, Layer.Balcony, balcony);
-        backplateImages.push(imageObject);
+        if(!e.name.toLowerCase().includes('ss')){
+          const imageObject = objectify(e, Layer.Balcony, balcony);
+          backplateImages.push(imageObject);
+        }
+
       });
 
       DIM.forEach((e) => {
-        const imageObject = objectify(e, Layer.DIMS, DIMS);
-        backplateImages.push(imageObject);
+        if(!e.name.toLowerCase().includes('ss')){
+          const imageObject = objectify(e, Layer.DIMS, DIMS);
+          backplateImages.push(imageObject);
+        }
+
       });
 
       DIMFlipped.forEach((e) => {
-        const imageObject = objectify(e, Layer.DIMS, flippedDIMS);
-        backplateImages.push(imageObject);
+        if(!e.name.toLowerCase().includes('ss')){
+          const imageObject = objectify(e, Layer.DIMS, flippedDIMS);
+          backplateImages.push(imageObject);
+        }
+
       });
 
       const thisBaseImages = backplateImages.filter(

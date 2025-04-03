@@ -1,0 +1,128 @@
+Unit Name,Unit Type,Unit Type Dev,Mirrored,
+b1-101,Studio Type C,a_s_s_c1_s1_0,Flipped,90
+b1-102,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-103,3 Bedroom Type B [1],a_s_3b_b1_s1_0,Normal,270
+b1-104,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-105,1 Bedroom Type A,a_s_1b_a1_s1_0,Normal,270
+b1-106,1 Bedroom Type B,a_s_1b_b1_s1_0,Normal,90
+b1-107,Studio Type B,a_s_s_b1_s1_0,Normal,90
+b1-201,1 Bedroom Duplex Type C,d_s_1b_c1_s1_0,Normal,90
+b1-202,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-203,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-204,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-205,3 Bedroom Type A [2],a_s_3b_a3_s1_0,Flipped,270
+b1-206,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-207,1 Bedroom Duplex Type B,d_s_1b_b1_s1_0,Normal,90
+b1-301,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-302,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-303,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-304,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,270
+b1-305,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-501,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-502,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-503,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-504,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,270
+b1-505,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-701,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-702,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-703,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-704,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,270
+b1-705,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-401,1 Bedroom Duplex Type C,d_s_1b_c1_s1_0,Normal,90
+b1-402,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-403,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-404,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-405,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,270
+b1-406,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-407,1 Bedroom Duplex Type B,d_s_1b_b1_s1_0,Normal,90
+b1-601,1 Bedroom Duplex Type C,d_s_1b_c1_s1_0,Normal,90
+b1-602,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,0
+b1-603,3 Bedroom Type B [2],a_s_3b_b2_s1_0,Normal,270
+b1-604,2 Bedroom Type A1,a_s_2b_a1_s1_0,Normal,270
+b1-605,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,270
+b1-606,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,180
+b1-607,1 Bedroom Duplex Type B,d_s_1b_b1_s1_0,Normal,90
+b2-101,Studio Type A,a_s_s_a1_s1_0,Normal,180
+b2-102,1 Bedroom Type B,a_s_1b_b1_s1_0,Flipped,180
+b2-103,3 Bedroom Type A ADA [2],a_s_3b_a4_s1_0,Flipped,0
+b2-104,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-105,3 Bedroom Type A ADA,a_s_3b_a2_s1_0,Normal,0
+b2-106,1 Bedroom Type B,a_s_1b_b1_s1_0,Normal,180
+b2-201,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b2-202,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-203,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-204,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-205,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-206,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-207,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
+b2-301,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-302,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-303,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-304,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-305,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-501,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-502,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-503,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-504,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-505,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-701,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-702,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-703,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-704,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-705,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-401,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b2-402,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-403,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-404,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-405,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-406,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-407,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
+b2-601,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b2-602,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b2-603,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b2-604,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b2-605,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b2-606,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b2-607,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
+b3-101,1 Bedroom Type B,a_s_1b_b1_s1_0,Flipped,180
+b3-102,3 Bedroom Type A ADA,a_s_3b_a2_s1_0,Flipped,0
+b3-103,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-104,3 Bedroom Type A [4],a_s_3b_a5_s1_0,Normal,0
+b3-105,2 Bedroom Type B ADA,a_s_2b_b2_s1_0,Normal,180
+b3-106,Studio Type A,a_s_s_a1_s1_0,Flipped,180
+b3-201,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b3-202,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-203,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-204,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-205,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-206,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-207,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
+b3-301,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-302,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-303,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-304,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-305,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-501,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-502,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-503,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-504,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-505,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-701,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-702,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-703,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-704,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-705,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-401,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b3-402,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-403,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-404,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-405,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-406,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-407,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
+b3-601,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Flipped,180
+b3-602,2 Bedroom Type B,a_s_2b_b1_s1_0,Flipped,90
+b3-603,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Normal,0
+b3-604,2 Bedroom Type A,a_s_2b_a2_s1_0,Normal,0
+b3-605,3 Bedroom Type A [1],a_s_3b_a1_s1_0,Flipped,0
+b3-606,2 Bedroom Type B,a_s_2b_b1_s1_0,Normal,270
+b3-607,1 Bedroom Duplex Type A,d_s_1b_a1_s1_0,Normal,180
