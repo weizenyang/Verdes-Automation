@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['alpha_composer.py'],
+    ['lookup_maker.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='alpha_composer',
+    name='lookup_maker',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

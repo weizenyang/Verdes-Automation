@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['alpha_composer.py'],
+    ['batch_renamer.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='alpha_composer',
+    name='batch_renamer',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
