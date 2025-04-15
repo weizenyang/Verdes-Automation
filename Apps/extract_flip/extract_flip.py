@@ -42,7 +42,7 @@ if __name__ == "__main__":
     # Set your paths here as strings:
     csv_path = r"C:/Users/EWei/Documents/GitHub/Verdes-Automation/Apps/extract_flip/bf_files.csv"         # CSV file with keywords (one per row)
     # source_dir = r"/hera/Projects/xxxx_Aldar_LSQ_Woolwich/Renders/RAW_Images/_RenderOutputFolder/Final Apartment Interior Tours/Merged/For Flipped Apartments/Output/woolwichtower"
-    source_dir = r"//hera/Projects/xxxx_Aldar_LSQ_Woolwich/Renders/RAW_Images/250407 Composited Images/Flipped/woolwichtower"
+    source_dir = r"//hera/Projects/xxxx_Aldar_LSQ_Woolwich/Renders/RAW_Images/250409 Composited Images/Flipped/woolwichtower"
     
 
     # Load keywords.
