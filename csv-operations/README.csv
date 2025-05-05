@@ -1,6 +1,0 @@
-1. Install Node.js here
-https://nodejs.org/en
-
-2. Install dependencies by running 'npm i'
-
-3. For scaling 3D CSV, firstly run 'cd 3D', then run 'node scale.js'

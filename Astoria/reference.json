@@ -151,7 +151,7 @@
       },
       "parent": {
         "name": "ph_s_5b_a1_s1_0",
-        "rotation": 0
+        "rotation": 270
       }
     },
     {
@@ -162,7 +162,7 @@
       },
       "parent": {
         "name": "ph_s_5b_b1_s1_0",
-        "rotation": 0
+        "rotation": 90
       }
     },
     {
@@ -173,7 +173,7 @@
       },
       "parent": {
         "name": "ph_s_5b_c1_s1_0",
-        "rotation": 0
+        "rotation": 90
       }
     },
     {
@@ -393,7 +393,7 @@
       },
       "parent": {
         "name": "ph_s_5b_a1_s2_0",
-        "rotation": 0
+        "rotation": 270
       }
     },
     {
@@ -404,7 +404,7 @@
       },
       "parent": {
         "name": "ph_s_5b_b1_s2_0",
-        "rotation": 0
+        "rotation": 90
       }
     },
     {
@@ -415,7 +415,7 @@
       },
       "parent": {
         "name": "ph_s_5b_c1_s2_0",
-        "rotation": 0
+        "rotation": 90
       }
     },
     {

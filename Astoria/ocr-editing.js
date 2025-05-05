@@ -10,7 +10,6 @@ const xml2js = require('xml2js');
 // Function to preprocess the image for better OCR
 const preprocessImage = async (imagePath) => {
   return sharp(imagePath)
-    .grayscale()
     .toBuffer();
 };
 

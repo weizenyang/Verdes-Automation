@@ -446,9 +446,9 @@ const processDirectory = async (directoryPath, outputPath, customSVGDir) => {
 };
 
 // Specify the path to your directory and the output directory
-const SVGDirectoryPath = './DIMS/permutations/mask';
-const directoryPath = './DIMS/permutations/original';
-const outputPath = './DIMS/permutations';
+const SVGDirectoryPath = './DIMS/mask';
+const directoryPath = './DIMS/original';
+const outputPath = './DIMS';
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(outputPath)) {

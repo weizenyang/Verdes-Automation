@@ -76,7 +76,7 @@
                 }
             ],
             "rotate": 0,
-            "flipX": true,
+            "flipX": false,
             "flipY": false,
             "x" : 0,
             "y" : 0
@@ -111,12 +111,12 @@
 
                 },
                 {
-                    "original" : "04",
-                    "duplicate" : ["06", "08"]
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
                 }
             ],
             "rotate": 0,
-            "flipX": true,
+            "flipX": false,
             "flipY": false,
             "x" : 0,
             "y" : 0

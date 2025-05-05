@@ -99,14 +99,13 @@ def select_folder():
 # --- Renaming function ---
 def get_new_name(base_name, ext=""):
     """
-    For each key in the mapping, if it is found in the base_name then replace it with its new value.
-    If the "Ignore Case" option is enabled, the replacement is performed case-insensitively.
-    Returns new_name+ext if at least one replacement occurs; otherwise, returns None.
+    For each key in the mapping, apply replacements in descending key length order.
     """
     ignore = ignore_case_var.get()
     new_name = base_name
     mapping_found = False
-    for key, new_sub in mapping.items():
+    # Sort mapping keys by length descending to match longer names first
+    for key, new_sub in sorted(mapping.items(), key=lambda item: len(item[0]), reverse=True):
         if ignore:
             pattern = re.compile(re.escape(key), re.IGNORECASE)
             if pattern.search(new_name):
@@ -120,6 +119,7 @@ def get_new_name(base_name, ext=""):
         return new_name + ext
     else:
         return None
+
 
 def process_file(file_path):
     if not os.path.isfile(file_path):

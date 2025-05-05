@@ -298,25 +298,25 @@
       "name": "b1-801",
       "type": "ph_s_5b_c1_s2_0",
       "flip": "false",
-      "rotation": 90
+      "rotation": 0
     },
     {
       "name": "b1-802",
       "type": "ph_s_5b_a1_s2_0",
       "flip": "false",
-      "rotation": 270
+      "rotation": 180
     },
     {
       "name": "b1-801",
       "type": "ph_s_5b_c1_s1_0",
       "flip": "false",
-      "rotation": 90
+      "rotation": 0
     },
     {
       "name": "b1-802",
       "type": "ph_s_5b_a1_s1_0",
       "flip": "false",
-      "rotation": 270
+      "rotation": 180
     },
     {
       "name": "b2-101",

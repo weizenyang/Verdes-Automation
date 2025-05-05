@@ -8,8 +8,8 @@ const INPUT_DIR = "./SVGs/input";    // Directory containing SVG files to proces
 const OUTPUT_DIR = "./SVGs/output";  // Directory to write processed SVG files
 
 // Global transformation variables:
-const ROTATE_ANGLE = 180;         // Set to 0, 90, 180, or 270 (degrees)
-const FLIP_HORIZONTALLY = false;  // Set to true to flip horizontally, false otherwise
+const ROTATE_ANGLE = 0;         // Set to 0, 90, 180, or 270 (degrees)
+const FLIP_HORIZONTALLY = true;  // Set to true to flip horizontally, false otherwise
 
 // ---------- Helper: Flatten Rotation on a <rect> ----------
 // If a <rect> has a transform attribute with a rotate(), apply the rotation to its coordinates
