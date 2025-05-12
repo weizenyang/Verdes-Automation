@@ -52,7 +52,7 @@
       },
       "parent": {
         "name": "a_s_2b_b1_s1_0",
-        "rotation": 0
+        "rotation": 90
       }
     },
     {
@@ -217,7 +217,18 @@
       },
       "parent": {
         "name": "d_s_1b_a1_s1_0",
-        "rotation": 0
+        "rotation": 180
+      }
+    },
+    {
+      "name": "d_s_1b_a1_s1_1",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_a1_s1_1",
+        "rotation": 180
       }
     },
     {
@@ -232,6 +243,17 @@
       }
     },
     {
+      "name": "d_s_1b_b1_s1_1",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_b1_s1_1",
+        "rotation": 0
+      }
+    },
+    {
       "name": "d_s_1b_c1_s1_0",
       "offset": {
         "rotation": 0,
@@ -239,6 +261,17 @@
       },
       "parent": {
         "name": "d_s_1b_c1_s1_0",
+        "rotation": 0
+      }
+    },
+    {
+      "name": "d_s_1b_c1_s1_1",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_c1_s1_1",
         "rotation": 0
       }
     },
@@ -496,6 +529,17 @@
       }
     },
     {
+      "name": "d_s_1b_c1_s2_1",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_c1_s2_1",
+        "rotation": 180
+      }
+    },
+    {
       "name": "d_s_1b_a1_s2_1",
       "offset": {
         "rotation": 0,
@@ -525,17 +569,6 @@
       },
       "parent": {
         "name": "d_s_1b_b1_s2_1",
-        "rotation": 180
-      }
-    },
-    {
-      "name": "d_s_1b_c1_s2_1",
-      "offset": {
-        "rotation": 0,
-        "flip": false
-      },
-      "parent": {
-        "name": "d_s_1b_c1_s2_1",
         "rotation": 180
       }
     }

@@ -1,0 +1,65 @@
+{
+    "project" : "fahidbeachresidences",
+    "towers" : [
+        {
+            "name" : "b1",
+            "type" : "b1",
+            "duplicate" : [
+                {
+                    "original" : "04",
+                    "duplicate" : ["06"]
+
+                },
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+                {
+            "name" : "b2",
+            "type" : "b2",
+            "duplicate" : [
+                {
+                    "original" : "04",
+                    "duplicate" : ["06"]
+
+                },
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },        {
+            "name" : "b3",
+            "type" : "b3",
+            "duplicate" : [
+                {
+                    "original" : "04",
+                    "duplicate" : ["06"]
+
+                },
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        }
+    ]
+        
+}

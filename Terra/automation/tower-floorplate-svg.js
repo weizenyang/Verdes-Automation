@@ -5,7 +5,7 @@ const svgpath = require("svgpath");
 
 const input = "../SVGs/input";
 const output = "../SVGs/output";
-const configPath = "./tower-floorplate.json";
+const configPath = "./tower-floorplate-svg.json";
 
 // Read file list and configuration
 const files = fs.readdirSync(input);
@@ -71,6 +71,7 @@ function transformAndRenameSvg(svgContent, transformations, newFileBase, idPrefi
       } else {
         newId = id;
       }
+      console.log(newId)
       $(elem).attr("id", newId);
     }
   });
@@ -129,8 +130,9 @@ config.towers.forEach(tower => {
         }
         
         // Process duplicates (always transform from the same original source)
-        duplicateSuffixes.forEach(newSuffix => {
-          const newFileBase = `${filePrefix}${newSuffix}`;
+        duplicateSuffixes.forEach(levelIndex => {
+          const newFileBase = `${filePrefix}${levelIndex}`;
+          console.log(filePrefix)
           const newFileName = `${newFileBase}${ext}`;
           const outputPath = path.join(output, newFileName);
           

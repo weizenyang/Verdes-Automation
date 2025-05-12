@@ -21,10 +21,14 @@ def process_csv_file(filepath, output_dir, scale_axis=None):
     if not rows:
         print(f"⚠️ Skipping empty file {filepath}")
         return
+    
 
+    
     # Process rows
     out_rows = []
+    
     for row in rows:
+        # print(row[YAW_IDX])
         # If scaling axis, negate that position and update yaw
         if scale_axis:
             # negate position
@@ -35,12 +39,15 @@ def process_csv_file(filepath, output_dir, scale_axis=None):
                 except ValueError:
                     pass
             # update yaw
-            if YAW_IDX < len(row):
-                try:
-                    yaw = float(row[YAW_IDX])
-                    row[YAW_IDX] = str((180 - yaw) % 360)
-                except ValueError:
-                    pass
+        row_len = len(row)
+        if row_len > YAW_IDX:
+            try:
+                print(row[YAW_IDX])
+                yaw = float(row[YAW_IDX])
+                row[YAW_IDX] = str((180 + yaw) % 360)
+            except ValueError:
+                print("Failed")
+                pass
         out_rows.append(row)
 
     # Write output

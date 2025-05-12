@@ -5,8 +5,8 @@ const csvParser = require('csv-parser');
 const createCsvWriter = require('csv-writer').createArrayCsvWriter;
 
 // Define input and output directories
-const inputDir = path.join(__dirname, 'input');
-const outputDir = path.join(__dirname, 'output');
+const inputDir = "/Users/weizenyang/Documents/sales_kiosk_scraping/src/data/SAMAYAS/processed/csv_camera_property_variation"
+const outputDir = "/Users/weizenyang/Documents/sales_kiosk_scraping/src/data/SAMAYAS/processed/csv_camera_property_variation"
 
 // Create the output directory if it doesn't exist
 if (!fs.existsSync(outputDir)) {

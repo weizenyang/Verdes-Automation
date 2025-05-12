@@ -1,0 +1,146 @@
+{
+    "project" : "fahidbeachresidences",
+    "towers" : [
+        {
+            "name" : "b1",
+            "type" : "b1",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b2",
+            "type" : "b2",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b3",
+            "type" : "b3",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": true,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b4",
+            "type" : "b4",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b5",
+            "type" : "b5",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b6",
+            "type" : "b6",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        },
+        {
+            "name" : "b7",
+            "type" : "b7",
+            "duplicate" : [
+                {
+                    "original" : "03",
+                    "duplicate" : ["05", "07", "09"]
+
+                },
+                {
+                    "original" : "08",
+                    "duplicate" : ["06", "04"]
+                }
+            ],
+            "rotate": 0,
+            "flipX": false,
+            "flipY": false,
+            "x" : 0,
+            "y" : 0
+        }
+    ]
+        
+}
