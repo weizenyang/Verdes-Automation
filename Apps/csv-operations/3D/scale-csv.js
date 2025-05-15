@@ -46,7 +46,7 @@ fs.readdir(inputDir, (err, files) => {
         // Scale down columns 1, 2, and 3 (i.e., the 2nd, 3rd, and 4th columns)
         [1, 2, 3].forEach(index => {
           if (row[index] !== undefined && !isNaN(row[index])) {
-            row[index] = Number(row[index]) * 100;
+            row[index] = (Number(row[index]) * 100).toFixed(2);
           }
         });
 

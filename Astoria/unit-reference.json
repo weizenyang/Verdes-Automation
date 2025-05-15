@@ -651,7 +651,7 @@
     {
       "name": "b3-104",
       "type": "a_s_3b_a5_s2_0",
-      "flip": "false",
+      "flip": "true",
       "rotation": 0
     },
     {
@@ -1593,7 +1593,7 @@
     {
       "name": "b3-104",
       "type": "a_s_3b_a5_s1_0",
-      "flip": "false",
+      "flip": "true",
       "rotation": 0
     },
     {

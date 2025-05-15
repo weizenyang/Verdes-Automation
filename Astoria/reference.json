@@ -239,7 +239,7 @@
       },
       "parent": {
         "name": "d_s_1b_b1_s1_0",
-        "rotation": 0
+        "rotation": 180
       }
     },
     {
@@ -250,7 +250,7 @@
       },
       "parent": {
         "name": "d_s_1b_b1_s1_1",
-        "rotation": 0
+        "rotation": 180
       }
     },
     {
@@ -261,7 +261,7 @@
       },
       "parent": {
         "name": "d_s_1b_c1_s1_0",
-        "rotation": 0
+        "rotation": 180
       }
     },
     {
@@ -272,7 +272,7 @@
       },
       "parent": {
         "name": "d_s_1b_c1_s1_1",
-        "rotation": 0
+        "rotation": 180
       }
     },
     {
@@ -558,6 +558,28 @@
       },
       "parent": {
         "name": "d_s_1b_a2_s2_1",
+        "rotation": 180
+      }
+    },
+    {
+      "name": "d_s_1b_a2_s1_1",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_a2_s1_1",
+        "rotation": 180
+      }
+    },
+    {
+      "name": "d_s_1b_a2_s1_0",
+      "offset": {
+        "rotation": 0,
+        "flip": false
+      },
+      "parent": {
+        "name": "d_s_1b_a2_s1_0",
         "rotation": 180
       }
     },

@@ -47,8 +47,8 @@ fs.readdir(inputDir, (err, files) => {
         }
 
         if(row[0].toLowerCase().includes("anchorpoint")){
-          xOffset = row[1]
-          yOffset = row[2]
+          xOffset = row[1].toFixed(2)
+          yOffset = row[2].toFixed(2)
         }
 
         // // Scale down columns 1, 2, and 3 (i.e., the 2nd, 3rd, and 4th columns)

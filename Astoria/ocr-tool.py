@@ -68,16 +68,10 @@ def composite_onto_black(foreground_path, bg_width=4096, bg_height=4096):
 def draw_ocr_results_svg(results, svg_filename, image_width=4096, image_height=4096):
     """
     Generates an SVG file (image_width x image_height) with
-    bounding-box rectangles for each recognized text region.
+    merged bounding-box rectangles for each cluster of nearby text regions.
     Each rectangle contains:
-      - data-name: the detected text
-      - data-rotation: the rotation angle of the text,
-        where 180 degrees indicates normal top-to-bottom orientation,
-        and 0 degrees indicates upside-down text.
-        
-    results: output from EasyOCR's reader.readtext(...)
-    Each item in results is typically: 
-       [ [ (x0, y0), (x1, y1), (x2, y2), (x3, y3) ], text, confidence ]
+      - data-name: the concatenated detected text
+      - data-rotation: fixed at 180 (upright)
     """
     # Start the SVG content
     svg_lines = [
@@ -85,34 +79,46 @@ def draw_ocr_results_svg(results, svg_filename, image_width=4096, image_height=4
         '<style> rect { fill: black; stroke: none; } </style>'
     ]
 
-    for detection in results:
-        coords, text, confidence = detection
-        # Compute bounding box coordinates
+    # 0) Build raw boxes
+    raw_boxes = []
+    for coords, text, _ in results:
         xs = [pt[0] for pt in coords]
         ys = [pt[1] for pt in coords]
+        raw_boxes.append({
+            'x0': min(xs), 'y0': min(ys),
+            'x1': max(xs), 'y1': max(ys),
+            'text': text
+        })
 
-        x_min = min(xs)
-        y_min = min(ys)
-        x_max = max(xs)
-        y_max = max(ys)
-        box_width = x_max - x_min
-        box_height = y_max - y_min
+    # 1) Merge any boxes within threshold of each other
+    thresh = 20
+    merged = []
+    for box in raw_boxes:
+        x0,y0,x1,y1,txt = box['x0'],box['y0'],box['x1'],box['y1'],box['text']
+        did_merge = False
+        for m in merged:
+            # if overlap or within thresh in either dimension
+            if not (x1 < m['x0']-thresh or x0 > m['x1']+thresh or
+                    y1 < m['y0']-thresh or y0 > m['y1']+thresh):
+                # union their extents
+                m['x0'], m['y0'] = min(m['x0'], x0), min(m['y0'], y0)
+                m['x1'], m['y1'] = max(m['x1'], x1), max(m['y1'], y1)
+                m['text'] += " " + txt
+                did_merge = True
+                break
+        if not did_merge:
+            merged.append({'x0':x0,'y0':y0,'x1':x1,'y1':y1,'text':txt})
 
-        # Calculate rotation angle using the top edge (from first point to second point)
-        angle_rad = math.atan2(coords[1][1] - coords[0][1], coords[1][0] - coords[0][0])
-        rotation = (math.degrees(angle_rad) + 180) % 360
-        rotation = round(rotation, 1)
-
-        # Draw bounding box with data attributes for name and rotation
+    # 2) Emit SVG rects for merged boxes
+    for m in merged:
+        x_min, y_min = m['x0'], m['y0']
+        width  = m['x1'] - m['x0']
+        height = m['y1'] - m['y0']
         rect_tag = (
-            f'<rect x="{x_min}" y="{y_min}" width="{box_width}" height="{box_height}" '
-            f'data-name="{text}" data-rotation="{rotation}" />'
+            f'<rect x="{x_min}" y="{y_min}" width="{width}" height="{height}" '
+            f'data-name="{m["text"]}" data-rotation="180" />'
         )
         svg_lines.append(rect_tag)
-
-        # Optionally, add a text label inside the box:
-        # text_tag = f'<text x="{x_min}" y="{y_min - 5}" fill="red" font-size="32">{text}</text>'
-        # svg_lines.append(text_tag)
 
     svg_lines.append('</svg>')
 
@@ -121,6 +127,7 @@ def draw_ocr_results_svg(results, svg_filename, image_width=4096, image_height=4
         f.write("\n".join(svg_lines))
 
     print(f"Saved SVG overlay to: {svg_filename}")
+
 
 def main():
     input_dir = Path("DIMS/original")

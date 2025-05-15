@@ -26,8 +26,8 @@ fs.readFile(inputFilePath, 'utf8', (err, data) => {
     if (index === 0) return row;
 
     // Access and modify the second and third columns
-    columns[1] = parseFloat(columns[1]) - 3500; // Subtract 0 (no change) from second column
-    columns[2] = parseFloat(columns[2]) - 17500; // Subtract 17000 from third column
+    columns[1] = (parseFloat(columns[1]) - 3500).toFixed(2); // Subtract 0 (no change) from second column
+    columns[2] = (parseFloat(columns[2]) - 17500).toFixed(2); // Subtract 17000 from third column
 
     // Join columns back into a row
     return columns.join(',');
